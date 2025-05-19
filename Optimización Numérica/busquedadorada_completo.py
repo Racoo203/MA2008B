@@ -5,7 +5,7 @@ import sympy as sp
 # ==========================
 print("=== BUSQUEDA DORADA PARA FUNCION RACIONAL ===")
 x = sp.Symbol('x')
-expr_str = input("Introduce la expresión de la función (en x): ")
+expr_str = input("Introduce la expresión de la funcion (en x): ")
 
 try:
     func_expr = sp.sympify(expr_str)

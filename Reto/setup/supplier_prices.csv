@@ -1,41 +1,17 @@
-species,store,unit_cost
-Agave lechuguilla,Vivero,inf
-Agave salmiana,Vivero,inf
-Agave scabra,Vivero,inf
-Agave striata,Vivero,inf
-Opuntia cantabrigiensis,Vivero,inf
-Opuntia engelmani,Vivero,inf
-Opuntia robusta,Vivero,inf
-Opuntia streptacanta,Vivero,inf
+specie,supplier,price
 Prosopis laevigata,Vivero,26.5
 Yucca filifera,Vivero,26.0
-Agave lechuguilla,Moctezuma,inf
-Agave salmiana,Moctezuma,inf
 Agave scabra,Moctezuma,26.0
 Agave striata,Moctezuma,26.0
 Opuntia cantabrigiensis,Moctezuma,17.0
-Opuntia engelmani,Moctezuma,inf
 Opuntia robusta,Moctezuma,17.0
-Opuntia streptacanta,Moctezuma,inf
-Prosopis laevigata,Moctezuma,inf
-Yucca filifera,Moctezuma,inf
-Agave lechuguilla,Venado,inf
-Agave salmiana,Venado,inf
-Agave scabra,Venado,inf
 Agave striata,Venado,25.0
 Opuntia cantabrigiensis,Venado,18.0
 Opuntia engelmani,Venado,18.0
 Opuntia robusta,Venado,18.0
 Opuntia streptacanta,Venado,18.0
-Prosopis laevigata,Venado,inf
-Yucca filifera,Venado,inf
 Agave lechuguilla,Laguna seca,26.0
 Agave salmiana,Laguna seca,26.0
 Agave scabra,Laguna seca,26.0
-Agave striata,Laguna seca,inf
-Opuntia cantabrigiensis,Laguna seca,inf
 Opuntia engelmani,Laguna seca,21.0
 Opuntia robusta,Laguna seca,18.0
-Opuntia streptacanta,Laguna seca,inf
-Prosopis laevigata,Laguna seca,inf
-Yucca filifera,Laguna seca,inf

@@ -1,0 +1,2176 @@
+{
+  "best_solution": [
+    [
+      1,
+      7,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      245
+    ],
+    [
+      1,
+      4,
+      "Prosopis laevigata",
+      "Vivero",
+      551
+    ],
+    [
+      1,
+      9,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      312
+    ],
+    [
+      1,
+      24,
+      "Agave lechuguilla",
+      "Laguna seca",
+      186
+    ],
+    [
+      1,
+      10,
+      "Opuntia robusta",
+      "Moctezuma",
+      463
+    ],
+    [
+      1,
+      19,
+      "Prosopis laevigata",
+      "Vivero",
+      339
+    ],
+    [
+      1,
+      22,
+      "Opuntia engelmani",
+      "Venado",
+      234
+    ],
+    [
+      1,
+      21,
+      "Yucca filifera",
+      "Vivero",
+      168
+    ],
+    [
+      1,
+      12,
+      "Agave salmiana",
+      "Laguna seca",
+      231
+    ],
+    [
+      1,
+      29,
+      "Agave salmiana",
+      "Laguna seca",
+      1026
+    ],
+    [
+      1,
+      2,
+      "Opuntia engelmani",
+      "Laguna seca",
+      225
+    ],
+    [
+      1,
+      20,
+      "Opuntia robusta",
+      "Moctezuma",
+      80
+    ],
+    [
+      1,
+      31,
+      "Agave scabra",
+      "Moctezuma",
+      242
+    ],
+    [
+      1,
+      12,
+      "Opuntia engelmani",
+      "Venado",
+      44
+    ],
+    [
+      1,
+      11,
+      "Prosopis laevigata",
+      "Vivero",
+      529
+    ],
+    [
+      1,
+      30,
+      "Agave striata",
+      "Venado",
+      223
+    ],
+    [
+      1,
+      14,
+      "Agave lechuguilla",
+      "Laguna seca",
+      197
+    ],
+    [
+      1,
+      31,
+      "Opuntia streptacanta",
+      "Venado",
+      374
+    ],
+    [
+      1,
+      20,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      54
+    ],
+    [
+      1,
+      19,
+      "Agave salmiana",
+      "Laguna seca",
+      772
+    ],
+    [
+      1,
+      4,
+      "Yucca filifera",
+      "Vivero",
+      168
+    ],
+    [
+      1,
+      20,
+      "Agave lechuguilla",
+      "Laguna seca",
+      45
+    ],
+    [
+      1,
+      8,
+      "Opuntia streptacanta",
+      "Venado",
+      387
+    ],
+    [
+      1,
+      18,
+      "Prosopis laevigata",
+      "Vivero",
+      490
+    ],
+    [
+      1,
+      14,
+      "Opuntia engelmani",
+      "Laguna seca",
+      179
+    ],
+    [
+      1,
+      18,
+      "Agave scabra",
+      "Laguna seca",
+      234
+    ],
+    [
+      2,
+      30,
+      "Agave lechuguilla",
+      "Laguna seca",
+      223
+    ],
+    [
+      2,
+      28,
+      "Agave lechuguilla",
+      "Laguna seca",
+      219
+    ],
+    [
+      2,
+      9,
+      "Opuntia engelmani",
+      "Laguna seca",
+      240
+    ],
+    [
+      2,
+      25,
+      "Prosopis laevigata",
+      "Vivero",
+      348
+    ],
+    [
+      2,
+      4,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      312
+    ],
+    [
+      2,
+      10,
+      "Agave striata",
+      "Venado",
+      264
+    ],
+    [
+      2,
+      1,
+      "Opuntia engelmani",
+      "Venado",
+      162
+    ],
+    [
+      2,
+      27,
+      "Agave lechuguilla",
+      "Laguna seca",
+      42
+    ],
+    [
+      2,
+      7,
+      "Agave scabra",
+      "Laguna seca",
+      207
+    ],
+    [
+      2,
+      28,
+      "Agave salmiana",
+      "Laguna seca",
+      1041
+    ],
+    [
+      2,
+      11,
+      "Agave lechuguilla",
+      "Laguna seca",
+      253
+    ],
+    [
+      2,
+      16,
+      "Prosopis laevigata",
+      "Vivero",
+      389
+    ],
+    [
+      2,
+      6,
+      "Opuntia robusta",
+      "Venado",
+      243
+    ],
+    [
+      2,
+      17,
+      "Agave striata",
+      "Venado",
+      201
+    ],
+    [
+      2,
+      23,
+      "Agave scabra",
+      "Moctezuma",
+      182
+    ],
+    [
+      2,
+      17,
+      "Opuntia robusta",
+      "Venado",
+      354
+    ],
+    [
+      2,
+      30,
+      "Opuntia engelmani",
+      "Venado",
+      203
+    ],
+    [
+      2,
+      10,
+      "Yucca filifera",
+      "Vivero",
+      168
+    ],
+    [
+      2,
+      10,
+      "Opuntia engelmani",
+      "Venado",
+      240
+    ],
+    [
+      2,
+      3,
+      "Yucca filifera",
+      "Vivero",
+      168
+    ],
+    [
+      2,
+      16,
+      "Agave scabra",
+      "Moctezuma",
+      186
+    ],
+    [
+      2,
+      12,
+      "Opuntia robusta",
+      "Laguna seca",
+      85
+    ],
+    [
+      2,
+      30,
+      "Prosopis laevigata",
+      "Vivero",
+      466
+    ],
+    [
+      2,
+      23,
+      "Agave striata",
+      "Moctezuma",
+      182
+    ],
+    [
+      2,
+      5,
+      "Prosopis laevigata",
+      "Vivero",
+      521
+    ],
+    [
+      2,
+      17,
+      "Prosopis laevigata",
+      "Vivero",
+      421
+    ],
+    [
+      2,
+      16,
+      "Yucca filifera",
+      "Vivero",
+      118
+    ],
+    [
+      2,
+      2,
+      "Agave lechuguilla",
+      "Laguna seca",
+      248
+    ],
+    [
+      2,
+      2,
+      "Agave striata",
+      "Venado",
+      248
+    ],
+    [
+      2,
+      27,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      50
+    ],
+    [
+      3,
+      8,
+      "Yucca filifera",
+      "Vivero",
+      159
+    ],
+    [
+      3,
+      14,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      233
+    ],
+    [
+      3,
+      23,
+      "Prosopis laevigata",
+      "Vivero",
+      381
+    ],
+    [
+      3,
+      11,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      299
+    ],
+    [
+      3,
+      12,
+      "Opuntia streptacanta",
+      "Venado",
+      75
+    ],
+    [
+      3,
+      10,
+      "Opuntia streptacanta",
+      "Venado",
+      408
+    ],
+    [
+      3,
+      14,
+      "Agave salmiana",
+      "Laguna seca",
+      938
+    ],
+    [
+      3,
+      26,
+      "Yucca filifera",
+      "Vivero",
+      100
+    ],
+    [
+      3,
+      18,
+      "Opuntia engelmani",
+      "Laguna seca",
+      213
+    ],
+    [
+      3,
+      18,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      277
+    ],
+    [
+      3,
+      6,
+      "Agave scabra",
+      "Moctezuma",
+      138
+    ],
+    [
+      3,
+      15,
+      "Prosopis laevigata",
+      "Vivero",
+      372
+    ],
+    [
+      3,
+      1,
+      "Agave salmiana",
+      "Laguna seca",
+      847
+    ],
+    [
+      3,
+      4,
+      "Agave striata",
+      "Moctezuma",
+      264
+    ],
+    [
+      3,
+      23,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      215
+    ],
+    [
+      3,
+      18,
+      "Opuntia robusta",
+      "Moctezuma",
+      412
+    ],
+    [
+      3,
+      25,
+      "Agave salmiana",
+      "Laguna seca",
+      792
+    ],
+    [
+      3,
+      23,
+      "Opuntia engelmani",
+      "Venado",
+      166
+    ],
+    [
+      3,
+      13,
+      "Agave salmiana",
+      "Laguna seca",
+      1250
+    ],
+    [
+      3,
+      13,
+      "Yucca filifera",
+      "Vivero",
+      167
+    ],
+    [
+      3,
+      19,
+      "Agave scabra",
+      "Moctezuma",
+      162
+    ],
+    [
+      3,
+      20,
+      "Yucca filifera",
+      "Vivero",
+      29
+    ],
+    [
+      3,
+      6,
+      "Yucca filifera",
+      "Vivero",
+      88
+    ],
+    [
+      4,
+      21,
+      "Prosopis laevigata",
+      "Vivero",
+      551
+    ],
+    [
+      4,
+      25,
+      "Agave striata",
+      "Venado",
+      166
+    ],
+    [
+      4,
+      17,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      238
+    ],
+    [
+      4,
+      30,
+      "Yucca filifera",
+      "Vivero",
+      142
+    ],
+    [
+      4,
+      8,
+      "Opuntia robusta",
+      "Venado",
+      440
+    ],
+    [
+      4,
+      26,
+      "Opuntia robusta",
+      "Venado",
+      275
+    ],
+    [
+      4,
+      26,
+      "Agave salmiana",
+      "Laguna seca",
+      745
+    ],
+    [
+      4,
+      18,
+      "Agave lechuguilla",
+      "Laguna seca",
+      234
+    ],
+    [
+      4,
+      15,
+      "Yucca filifera",
+      "Vivero",
+      113
+    ],
+    [
+      4,
+      20,
+      "Opuntia engelmani",
+      "Laguna seca",
+      41
+    ],
+    [
+      4,
+      7,
+      "Agave lechuguilla",
+      "Laguna seca",
+      207
+    ],
+    [
+      4,
+      27,
+      "Opuntia robusta",
+      "Laguna seca",
+      74
+    ],
+    [
+      4,
+      14,
+      "Opuntia streptacanta",
+      "Venado",
+      305
+    ],
+    [
+      4,
+      22,
+      "Opuntia streptacanta",
+      "Venado",
+      398
+    ],
+    [
+      4,
+      23,
+      "Opuntia robusta",
+      "Moctezuma",
+      320
+    ],
+    [
+      4,
+      5,
+      "Opuntia engelmani",
+      "Venado",
+      227
+    ],
+    [
+      4,
+      3,
+      "Agave scabra",
+      "Laguna seca",
+      264
+    ],
+    [
+      4,
+      31,
+      "Opuntia engelmani",
+      "Venado",
+      220
+    ],
+    [
+      4,
+      17,
+      "Opuntia streptacanta",
+      "Venado",
+      311
+    ],
+    [
+      4,
+      29,
+      "Opuntia streptacanta",
+      "Venado",
+      333
+    ],
+    [
+      4,
+      1,
+      "Opuntia streptacanta",
+      "Venado",
+      275
+    ],
+    [
+      4,
+      21,
+      "Opuntia streptacanta",
+      "Venado",
+      408
+    ],
+    [
+      4,
+      27,
+      "Opuntia streptacanta",
+      "Venado",
+      65
+    ],
+    [
+      4,
+      18,
+      "Opuntia streptacanta",
+      "Venado",
+      362
+    ],
+    [
+      4,
+      16,
+      "Agave lechuguilla",
+      "Laguna seca",
+      186
+    ],
+    [
+      4,
+      28,
+      "Opuntia streptacanta",
+      "Venado",
+      338
+    ],
+    [
+      4,
+      1,
+      "Agave scabra",
+      "Moctezuma",
+      178
+    ],
+    [
+      4,
+      28,
+      "Agave scabra",
+      "Laguna seca",
+      219
+    ],
+    [
+      4,
+      26,
+      "Prosopis laevigata",
+      "Vivero",
+      327
+    ],
+    [
+      4,
+      27,
+      "Yucca filifera",
+      "Vivero",
+      27
+    ],
+    [
+      5,
+      12,
+      "Yucca filifera",
+      "Vivero",
+      31
+    ],
+    [
+      5,
+      24,
+      "Opuntia streptacanta",
+      "Venado",
+      287
+    ],
+    [
+      5,
+      31,
+      "Agave salmiana",
+      "Laguna seca",
+      1151
+    ],
+    [
+      5,
+      4,
+      "Opuntia streptacanta",
+      "Venado",
+      408
+    ],
+    [
+      5,
+      22,
+      "Agave lechuguilla",
+      "Laguna seca",
+      258
+    ],
+    [
+      5,
+      4,
+      "Opuntia engelmani",
+      "Venado",
+      240
+    ],
+    [
+      5,
+      20,
+      "Prosopis laevigata",
+      "Vivero",
+      95
+    ],
+    [
+      5,
+      15,
+      "Agave striata",
+      "Venado",
+      178
+    ],
+    [
+      5,
+      9,
+      "Opuntia streptacanta",
+      "Venado",
+      408
+    ],
+    [
+      5,
+      7,
+      "Opuntia robusta",
+      "Venado",
+      364
+    ],
+    [
+      5,
+      5,
+      "Opuntia streptacanta",
+      "Venado",
+      385
+    ],
+    [
+      5,
+      17,
+      "Agave lechuguilla",
+      "Laguna seca",
+      201
+    ],
+    [
+      5,
+      2,
+      "Agave salmiana",
+      "Laguna seca",
+      1179
+    ],
+    [
+      5,
+      3,
+      "Opuntia streptacanta",
+      "Venado",
+      408
+    ],
+    [
+      5,
+      9,
+      "Opuntia robusta",
+      "Venado",
+      463
+    ],
+    [
+      5,
+      13,
+      "Agave lechuguilla",
+      "Laguna seca",
+      263
+    ],
+    [
+      5,
+      21,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      312
+    ],
+    [
+      5,
+      26,
+      "Agave scabra",
+      "Laguna seca",
+      157
+    ],
+    [
+      5,
+      5,
+      "Yucca filifera",
+      "Vivero",
+      159
+    ],
+    [
+      5,
+      4,
+      "Agave lechuguilla",
+      "Laguna seca",
+      264
+    ],
+    [
+      5,
+      2,
+      "Opuntia streptacanta",
+      "Venado",
+      383
+    ],
+    [
+      5,
+      12,
+      "Prosopis laevigata",
+      "Vivero",
+      101
+    ],
+    [
+      5,
+      21,
+      "Agave striata",
+      "Venado",
+      264
+    ],
+    [
+      5,
+      27,
+      "Opuntia engelmani",
+      "Venado",
+      38
+    ],
+    [
+      6,
+      15,
+      "Opuntia streptacanta",
+      "Venado",
+      275
+    ],
+    [
+      6,
+      5,
+      "Agave striata",
+      "Moctezuma",
+      249
+    ],
+    [
+      6,
+      1,
+      "Yucca filifera",
+      "Vivero",
+      113
+    ],
+    [
+      6,
+      22,
+      "Agave salmiana",
+      "Laguna seca",
+      1226
+    ],
+    [
+      6,
+      31,
+      "Prosopis laevigata",
+      "Vivero",
+      506
+    ],
+    [
+      6,
+      8,
+      "Agave striata",
+      "Venado",
+      250
+    ],
+    [
+      6,
+      5,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      294
+    ],
+    [
+      6,
+      20,
+      "Agave striata",
+      "Moctezuma",
+      45
+    ],
+    [
+      6,
+      13,
+      "Agave striata",
+      "Venado",
+      263
+    ],
+    [
+      6,
+      9,
+      "Agave salmiana",
+      "Laguna seca",
+      1254
+    ],
+    [
+      6,
+      24,
+      "Opuntia engelmani",
+      "Venado",
+      169
+    ],
+    [
+      6,
+      29,
+      "Prosopis laevigata",
+      "Vivero",
+      451
+    ],
+    [
+      6,
+      9,
+      "Agave lechuguilla",
+      "Laguna seca",
+      264
+    ],
+    [
+      6,
+      14,
+      "Agave scabra",
+      "Moctezuma",
+      197
+    ],
+    [
+      6,
+      11,
+      "Agave salmiana",
+      "Laguna seca",
+      1203
+    ],
+    [
+      6,
+      7,
+      "Opuntia streptacanta",
+      "Venado",
+      320
+    ],
+    [
+      6,
+      23,
+      "Yucca filifera",
+      "Vivero",
+      116
+    ],
+    [
+      6,
+      12,
+      "Agave striata",
+      "Moctezuma",
+      48
+    ],
+    [
+      6,
+      6,
+      "Opuntia streptacanta",
+      "Venado",
+      213
+    ],
+    [
+      6,
+      8,
+      "Agave scabra",
+      "Laguna seca",
+      250
+    ],
+    [
+      6,
+      17,
+      "Yucca filifera",
+      "Vivero",
+      128
+    ],
+    [
+      6,
+      18,
+      "Yucca filifera",
+      "Vivero",
+      149
+    ],
+    [
+      7,
+      28,
+      "Opuntia robusta",
+      "Moctezuma",
+      385
+    ],
+    [
+      7,
+      10,
+      "Prosopis laevigata",
+      "Vivero",
+      551
+    ],
+    [
+      7,
+      8,
+      "Opuntia engelmani",
+      "Laguna seca",
+      228
+    ],
+    [
+      7,
+      23,
+      "Agave lechuguilla",
+      "Laguna seca",
+      182
+    ],
+    [
+      7,
+      3,
+      "Agave striata",
+      "Venado",
+      264
+    ],
+    [
+      7,
+      13,
+      "Prosopis laevigata",
+      "Vivero",
+      549
+    ],
+    [
+      7,
+      24,
+      "Yucca filifera",
+      "Vivero",
+      118
+    ],
+    [
+      7,
+      22,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      305
+    ],
+    [
+      7,
+      7,
+      "Prosopis laevigata",
+      "Vivero",
+      433
+    ],
+    [
+      7,
+      19,
+      "Opuntia robusta",
+      "Venado",
+      285
+    ],
+    [
+      7,
+      13,
+      "Opuntia engelmani",
+      "Venado",
+      239
+    ],
+    [
+      7,
+      4,
+      "Opuntia robusta",
+      "Moctezuma",
+      463
+    ],
+    [
+      7,
+      25,
+      "Opuntia engelmani",
+      "Laguna seca",
+      151
+    ],
+    [
+      7,
+      24,
+      "Agave salmiana",
+      "Laguna seca",
+      884
+    ],
+    [
+      7,
+      8,
+      "Agave salmiana",
+      "Laguna seca",
+      1192
+    ],
+    [
+      7,
+      9,
+      "Yucca filifera",
+      "Vivero",
+      168
+    ],
+    [
+      7,
+      16,
+      "Opuntia streptacanta",
+      "Venado",
+      287
+    ],
+    [
+      7,
+      6,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      163
+    ],
+    [
+      7,
+      3,
+      "Agave lechuguilla",
+      "Laguna seca",
+      264
+    ],
+    [
+      7,
+      24,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      220
+    ],
+    [
+      7,
+      28,
+      "Agave striata",
+      "Venado",
+      219
+    ],
+    [
+      7,
+      11,
+      "Opuntia engelmani",
+      "Venado",
+      230
+    ],
+    [
+      7,
+      11,
+      "Yucca filifera",
+      "Vivero",
+      161
+    ],
+    [
+      7,
+      12,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      57
+    ],
+    [
+      8,
+      26,
+      "Agave lechuguilla",
+      "Laguna seca",
+      157
+    ],
+    [
+      8,
+      2,
+      "Yucca filifera",
+      "Vivero",
+      158
+    ],
+    [
+      8,
+      17,
+      "Agave scabra",
+      "Laguna seca",
+      201
+    ],
+    [
+      8,
+      31,
+      "Agave striata",
+      "Venado",
+      242
+    ],
+    [
+      8,
+      1,
+      "Prosopis laevigata",
+      "Vivero",
+      372
+    ],
+    [
+      8,
+      24,
+      "Opuntia robusta",
+      "Laguna seca",
+      327
+    ],
+    [
+      8,
+      21,
+      "Agave lechuguilla",
+      "Laguna seca",
+      264
+    ],
+    [
+      8,
+      3,
+      "Prosopis laevigata",
+      "Vivero",
+      551
+    ],
+    [
+      8,
+      1,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      210
+    ],
+    [
+      8,
+      25,
+      "Opuntia streptacanta",
+      "Venado",
+      257
+    ],
+    [
+      8,
+      19,
+      "Opuntia engelmani",
+      "Laguna seca",
+      147
+    ],
+    [
+      8,
+      14,
+      "Opuntia robusta",
+      "Moctezuma",
+      346
+    ],
+    [
+      8,
+      18,
+      "Agave striata",
+      "Moctezuma",
+      234
+    ],
+    [
+      8,
+      16,
+      "Agave striata",
+      "Moctezuma",
+      186
+    ],
+    [
+      8,
+      30,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      263
+    ],
+    [
+      8,
+      7,
+      "Opuntia engelmani",
+      "Laguna seca",
+      188
+    ],
+    [
+      8,
+      2,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      293
+    ],
+    [
+      8,
+      29,
+      "Opuntia engelmani",
+      "Venado",
+      196
+    ],
+    [
+      8,
+      17,
+      "Agave salmiana",
+      "Laguna seca",
+      958
+    ],
+    [
+      8,
+      12,
+      "Agave lechuguilla",
+      "Laguna seca",
+      48
+    ],
+    [
+      8,
+      28,
+      "Prosopis laevigata",
+      "Vivero",
+      458
+    ],
+    [
+      8,
+      2,
+      "Opuntia robusta",
+      "Moctezuma",
+      436
+    ],
+    [
+      8,
+      19,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      192
+    ],
+    [
+      8,
+      22,
+      "Agave scabra",
+      "Laguna seca",
+      258
+    ],
+    [
+      8,
+      25,
+      "Opuntia robusta",
+      "Venado",
+      293
+    ],
+    [
+      8,
+      9,
+      "Agave striata",
+      "Moctezuma",
+      264
+    ],
+    [
+      8,
+      6,
+      "Agave lechuguilla",
+      "Laguna seca",
+      138
+    ],
+    [
+      8,
+      20,
+      "Agave scabra",
+      "Laguna seca",
+      45
+    ],
+    [
+      8,
+      8,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      296
+    ],
+    [
+      9,
+      14,
+      "Agave striata",
+      "Venado",
+      197
+    ],
+    [
+      9,
+      25,
+      "Yucca filifera",
+      "Vivero",
+      106
+    ],
+    [
+      9,
+      8,
+      "Prosopis laevigata",
+      "Vivero",
+      524
+    ],
+    [
+      9,
+      24,
+      "Agave striata",
+      "Moctezuma",
+      186
+    ],
+    [
+      9,
+      7,
+      "Yucca filifera",
+      "Vivero",
+      132
+    ],
+    [
+      9,
+      14,
+      "Yucca filifera",
+      "Vivero",
+      125
+    ],
+    [
+      9,
+      22,
+      "Opuntia robusta",
+      "Venado",
+      453
+    ],
+    [
+      9,
+      22,
+      "Agave striata",
+      "Venado",
+      258
+    ],
+    [
+      9,
+      15,
+      "Agave scabra",
+      "Laguna seca",
+      178
+    ],
+    [
+      9,
+      11,
+      "Opuntia robusta",
+      "Moctezuma",
+      444
+    ],
+    [
+      9,
+      29,
+      "Yucca filifera",
+      "Vivero",
+      137
+    ],
+    [
+      9,
+      13,
+      "Opuntia streptacanta",
+      "Venado",
+      406
+    ],
+    [
+      9,
+      21,
+      "Opuntia robusta",
+      "Moctezuma",
+      463
+    ],
+    [
+      9,
+      1,
+      "Agave striata",
+      "Moctezuma",
+      178
+    ],
+    [
+      9,
+      7,
+      "Agave striata",
+      "Venado",
+      207
+    ],
+    [
+      9,
+      29,
+      "Opuntia robusta",
+      "Moctezuma",
+      379
+    ],
+    [
+      9,
+      6,
+      "Opuntia engelmani",
+      "Venado",
+      126
+    ],
+    [
+      9,
+      21,
+      "Agave scabra",
+      "Moctezuma",
+      264
+    ],
+    [
+      9,
+      15,
+      "Opuntia engelmani",
+      "Venado",
+      162
+    ],
+    [
+      9,
+      15,
+      "Opuntia robusta",
+      "Moctezuma",
+      313
+    ],
+    [
+      9,
+      21,
+      "Agave salmiana",
+      "Laguna seca",
+      1254
+    ],
+    [
+      9,
+      8,
+      "Agave lechuguilla",
+      "Laguna seca",
+      250
+    ],
+    [
+      9,
+      3,
+      "Opuntia engelmani",
+      "Venado",
+      240
+    ],
+    [
+      9,
+      19,
+      "Agave striata",
+      "Venado",
+      162
+    ],
+    [
+      9,
+      12,
+      "Agave scabra",
+      "Laguna seca",
+      48
+    ],
+    [
+      9,
+      30,
+      "Opuntia streptacanta",
+      "Venado",
+      344
+    ],
+    [
+      9,
+      31,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      286
+    ],
+    [
+      9,
+      19,
+      "Yucca filifera",
+      "Vivero",
+      103
+    ],
+    [
+      9,
+      27,
+      "Agave striata",
+      "Moctezuma",
+      42
+    ],
+    [
+      10,
+      29,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      255
+    ],
+    [
+      10,
+      20,
+      "Agave salmiana",
+      "Laguna seca",
+      216
+    ],
+    [
+      10,
+      10,
+      "Agave scabra",
+      "Laguna seca",
+      264
+    ],
+    [
+      10,
+      3,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      312
+    ],
+    [
+      10,
+      1,
+      "Agave lechuguilla",
+      "Laguna seca",
+      178
+    ],
+    [
+      10,
+      15,
+      "Agave salmiana",
+      "Laguna seca",
+      847
+    ],
+    [
+      10,
+      6,
+      "Agave salmiana",
+      "Laguna seca",
+      657
+    ],
+    [
+      10,
+      16,
+      "Opuntia engelmani",
+      "Venado",
+      169
+    ],
+    [
+      10,
+      24,
+      "Agave scabra",
+      "Laguna seca",
+      186
+    ],
+    [
+      10,
+      22,
+      "Yucca filifera",
+      "Vivero",
+      164
+    ],
+    [
+      10,
+      16,
+      "Agave salmiana",
+      "Laguna seca",
+      884
+    ],
+    [
+      10,
+      24,
+      "Prosopis laevigata",
+      "Vivero",
+      389
+    ],
+    [
+      10,
+      15,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      210
+    ],
+    [
+      10,
+      31,
+      "Agave lechuguilla",
+      "Laguna seca",
+      242
+    ],
+    [
+      10,
+      29,
+      "Agave lechuguilla",
+      "Laguna seca",
+      216
+    ],
+    [
+      10,
+      26,
+      "Agave striata",
+      "Moctezuma",
+      157
+    ],
+    [
+      10,
+      27,
+      "Agave scabra",
+      "Laguna seca",
+      42
+    ],
+    [
+      10,
+      26,
+      "Opuntia engelmani",
+      "Venado",
+      142
+    ],
+    [
+      10,
+      5,
+      "Agave lechuguilla",
+      "Laguna seca",
+      249
+    ],
+    [
+      10,
+      30,
+      "Agave scabra",
+      "Moctezuma",
+      223
+    ],
+    [
+      10,
+      23,
+      "Agave salmiana",
+      "Laguna seca",
+      867
+    ],
+    [
+      10,
+      31,
+      "Yucca filifera",
+      "Vivero",
+      154
+    ],
+    [
+      10,
+      11,
+      "Agave scabra",
+      "Moctezuma",
+      253
+    ],
+    [
+      10,
+      21,
+      "Opuntia engelmani",
+      "Laguna seca",
+      240
+    ],
+    [
+      10,
+      14,
+      "Prosopis laevigata",
+      "Vivero",
+      412
+    ],
+    [
+      10,
+      20,
+      "Opuntia streptacanta",
+      "Venado",
+      70
+    ],
+    [
+      11,
+      25,
+      "Agave scabra",
+      "Laguna seca",
+      166
+    ],
+    [
+      11,
+      6,
+      "Agave striata",
+      "Venado",
+      138
+    ],
+    [
+      11,
+      4,
+      "Agave scabra",
+      "Moctezuma",
+      264
+    ],
+    [
+      11,
+      4,
+      "Agave salmiana",
+      "Laguna seca",
+      1254
+    ],
+    [
+      11,
+      18,
+      "Agave salmiana",
+      "Laguna seca",
+      1115
+    ],
+    [
+      11,
+      26,
+      "Opuntia streptacanta",
+      "Venado",
+      242
+    ],
+    [
+      11,
+      30,
+      "Opuntia robusta",
+      "Laguna seca",
+      392
+    ],
+    [
+      11,
+      16,
+      "Opuntia robusta",
+      "Laguna seca",
+      327
+    ],
+    [
+      11,
+      2,
+      "Agave scabra",
+      "Laguna seca",
+      248
+    ],
+    [
+      11,
+      16,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      220
+    ],
+    [
+      11,
+      13,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      310
+    ],
+    [
+      11,
+      5,
+      "Agave scabra",
+      "Laguna seca",
+      249
+    ],
+    [
+      11,
+      19,
+      "Opuntia streptacanta",
+      "Venado",
+      251
+    ],
+    [
+      11,
+      28,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      259
+    ],
+    [
+      11,
+      15,
+      "Agave lechuguilla",
+      "Laguna seca",
+      178
+    ],
+    [
+      11,
+      30,
+      "Agave salmiana",
+      "Laguna seca",
+      1060
+    ],
+    [
+      11,
+      23,
+      "Opuntia streptacanta",
+      "Venado",
+      282
+    ],
+    [
+      11,
+      28,
+      "Opuntia engelmani",
+      "Laguna seca",
+      199
+    ],
+    [
+      11,
+      31,
+      "Opuntia robusta",
+      "Laguna seca",
+      425
+    ],
+    [
+      11,
+      27,
+      "Agave salmiana",
+      "Laguna seca",
+      201
+    ],
+    [
+      11,
+      29,
+      "Agave scabra",
+      "Moctezuma",
+      216
+    ],
+    [
+      12,
+      7,
+      "Agave salmiana",
+      "Laguna seca",
+      985
+    ],
+    [
+      12,
+      29,
+      "Agave striata",
+      "Venado",
+      216
+    ],
+    [
+      12,
+      1,
+      "Opuntia robusta",
+      "Moctezuma",
+      313
+    ],
+    [
+      12,
+      25,
+      "Agave lechuguilla",
+      "Laguna seca",
+      166
+    ],
+    [
+      12,
+      11,
+      "Opuntia streptacanta",
+      "Venado",
+      391
+    ],
+    [
+      12,
+      13,
+      "Opuntia robusta",
+      "Moctezuma",
+      462
+    ],
+    [
+      12,
+      6,
+      "Prosopis laevigata",
+      "Vivero",
+      289
+    ],
+    [
+      12,
+      25,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      197
+    ],
+    [
+      12,
+      27,
+      "Prosopis laevigata",
+      "Vivero",
+      88
+    ],
+    [
+      12,
+      17,
+      "Opuntia engelmani",
+      "Venado",
+      183
+    ],
+    [
+      12,
+      11,
+      "Agave striata",
+      "Venado",
+      253
+    ],
+    [
+      12,
+      5,
+      "Opuntia robusta",
+      "Venado",
+      438
+    ],
+    [
+      12,
+      10,
+      "Opuntia cantabrigiensis",
+      "Moctezuma",
+      312
+    ],
+    [
+      12,
+      28,
+      "Yucca filifera",
+      "Vivero",
+      139
+    ],
+    [
+      12,
+      22,
+      "Prosopis laevigata",
+      "Vivero",
+      539
+    ],
+    [
+      12,
+      9,
+      "Agave scabra",
+      "Moctezuma",
+      264
+    ],
+    [
+      12,
+      26,
+      "Opuntia cantabrigiensis",
+      "Venado",
+      185
+    ],
+    [
+      12,
+      3,
+      "Opuntia robusta",
+      "Venado",
+      463
+    ],
+    [
+      12,
+      10,
+      "Agave salmiana",
+      "Laguna seca",
+      1254
+    ],
+    [
+      12,
+      9,
+      "Prosopis laevigata",
+      "Vivero",
+      551
+    ],
+    [
+      12,
+      10,
+      "Agave lechuguilla",
+      "Laguna seca",
+      264
+    ],
+    [
+      13,
+      2,
+      "Prosopis laevigata",
+      "Vivero",
+      518
+    ],
+    [
+      13,
+      5,
+      "Agave salmiana",
+      "Laguna seca",
+      1185
+    ],
+    [
+      13,
+      19,
+      "Agave lechuguilla",
+      "Laguna seca",
+      162
+    ],
+    [
+      13,
+      13,
+      "Agave scabra",
+      "Laguna seca",
+      263
+    ],
+    [
+      13,
+      3,
+      "Agave salmiana",
+      "Laguna seca",
+      1254
+    ]
+  ],
+  "best_cost": 2525297.0,
+  "datetime": "2025-06-02T09:24:03.055421"
+}

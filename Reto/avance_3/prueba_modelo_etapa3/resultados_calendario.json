@@ -1,0 +1,2817 @@
+{
+  "D\u00eda 1": {
+    "compras": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 114.63
+      },
+      {
+        "especie": 9,
+        "vivero": 1,
+        "cantidad": 811.5
+      },
+      {
+        "especie": 10,
+        "vivero": 1,
+        "cantidad": 21.55
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 114.63
+      },
+      {
+        "especie": 9,
+        "vivero": 1,
+        "cantidad": 811.5
+      },
+      {
+        "especie": 10,
+        "vivero": 1,
+        "cantidad": 21.55
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 1,
+        "cantidad": 114.63
+      },
+      {
+        "especie": 9,
+        "edad": 1,
+        "cantidad": 811.5
+      },
+      {
+        "especie": 10,
+        "edad": 1,
+        "cantidad": 21.55
+      }
+    ],
+    "siembra": [],
+    "transporte_activado": false
+  },
+  "D\u00eda 2": {
+    "compras": [],
+    "transportes": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 114.63
+      },
+      {
+        "especie": 9,
+        "vivero": 1,
+        "cantidad": 811.5
+      },
+      {
+        "especie": 10,
+        "vivero": 1,
+        "cantidad": 21.55
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 1,
+        "cantidad": 114.63
+      },
+      {
+        "especie": 9,
+        "edad": 1,
+        "cantidad": 811.5
+      },
+      {
+        "especie": 10,
+        "edad": 1,
+        "cantidad": 21.55
+      },
+      {
+        "especie": 2,
+        "edad": 2,
+        "cantidad": 114.63
+      },
+      {
+        "especie": 9,
+        "edad": 2,
+        "cantidad": 811.5
+      },
+      {
+        "especie": 10,
+        "edad": 2,
+        "cantidad": 21.55
+      }
+    ],
+    "siembra": [],
+    "transporte_activado": false
+  },
+  "D\u00eda 3": {
+    "compras": [],
+    "transportes": [],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 2,
+        "cantidad": 114.63
+      },
+      {
+        "especie": 9,
+        "edad": 2,
+        "cantidad": 811.5
+      },
+      {
+        "especie": 10,
+        "edad": 2,
+        "cantidad": 21.55
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 114.63
+      },
+      {
+        "especie": 9,
+        "edad": 3,
+        "cantidad": 811.5
+      },
+      {
+        "especie": 10,
+        "edad": 3,
+        "cantidad": 21.55
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 9,
+        "edad": 3,
+        "cantidad": 55.39
+      },
+      {
+        "especie": 9,
+        "edad": 3,
+        "cantidad": 238.95
+      },
+      {
+        "especie": 10,
+        "edad": 3,
+        "cantidad": 21.55
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 2,
+        "especie": 9,
+        "cantidad": 55.39
+      },
+      {
+        "viaje": 2,
+        "poligono": 3,
+        "especie": 9,
+        "cantidad": 238.95
+      },
+      {
+        "viaje": 2,
+        "poligono": 3,
+        "especie": 10,
+        "cantidad": 21.55
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 4": {
+    "compras": [],
+    "transportes": [],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 114.63
+      },
+      {
+        "especie": 9,
+        "edad": 3,
+        "cantidad": 811.5
+      },
+      {
+        "especie": 10,
+        "edad": 3,
+        "cantidad": 21.55
+      },
+      {
+        "especie": 2,
+        "edad": 4,
+        "cantidad": 114.63
+      },
+      {
+        "especie": 9,
+        "edad": 4,
+        "cantidad": 517.16
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 114.63
+      },
+      {
+        "especie": 9,
+        "edad": 4,
+        "cantidad": 201.27
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 4,
+        "especie": 9,
+        "cantidad": 201.27
+      },
+      {
+        "viaje": 2,
+        "poligono": 2,
+        "especie": 2,
+        "cantidad": 114.63
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 5": {
+    "compras": [
+      {
+        "especie": 1,
+        "vivero": 4,
+        "cantidad": 71.6
+      }
+    ],
+    "transportes": [],
+    "inventario": [
+      {
+        "especie": 9,
+        "edad": 4,
+        "cantidad": 811.5
+      },
+      {
+        "especie": 10,
+        "edad": 4,
+        "cantidad": 21.55
+      },
+      {
+        "especie": 2,
+        "edad": 5,
+        "cantidad": 114.63
+      },
+      {
+        "especie": 9,
+        "edad": 5,
+        "cantidad": 315.89
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 9,
+        "edad": 5,
+        "cantidad": 315.89
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 3,
+        "poligono": 4,
+        "especie": 9,
+        "cantidad": 315.89
+      }
+    ]
+  },
+  "D\u00eda 6": {
+    "compras": [
+      {
+        "especie": 6,
+        "vivero": 3,
+        "cantidad": 240.0
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 1,
+        "vivero": 4,
+        "cantidad": 71.6
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 1,
+        "edad": 1,
+        "cantidad": 71.6
+      },
+      {
+        "especie": 9,
+        "edad": 5,
+        "cantidad": 811.5
+      },
+      {
+        "especie": 10,
+        "edad": 5,
+        "cantidad": 21.55
+      },
+      {
+        "especie": 2,
+        "edad": 6,
+        "cantidad": 114.63
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 9,
+        "edad": 5,
+        "cantidad": 312.05
+      },
+      {
+        "especie": 9,
+        "edad": 5,
+        "cantidad": 3.84
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 3,
+        "poligono": 3,
+        "especie": 9,
+        "cantidad": 312.05
+      },
+      {
+        "viaje": 3,
+        "poligono": 4,
+        "especie": 9,
+        "cantidad": 3.84
+      }
+    ]
+  },
+  "D\u00eda 7": {
+    "compras": [
+      {
+        "especie": 4,
+        "vivero": 3,
+        "cantidad": 121.7
+      },
+      {
+        "especie": 5,
+        "vivero": 2,
+        "cantidad": 139.21
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 6,
+        "vivero": 3,
+        "cantidad": 240.0
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 6,
+        "edad": 1,
+        "cantidad": 240.0
+      },
+      {
+        "especie": 1,
+        "edad": 2,
+        "cantidad": 71.6
+      },
+      {
+        "especie": 9,
+        "edad": 6,
+        "cantidad": 495.61
+      },
+      {
+        "especie": 10,
+        "edad": 6,
+        "cantidad": 21.55
+      },
+      {
+        "especie": 2,
+        "edad": 7,
+        "cantidad": 114.63
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 9,
+        "edad": 6,
+        "cantidad": 179.72
+      },
+      {
+        "especie": 10,
+        "edad": 6,
+        "cantidad": 21.55
+      },
+      {
+        "especie": 2,
+        "edad": 7,
+        "cantidad": 114.63
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 2,
+        "poligono": 4,
+        "especie": 2,
+        "cantidad": 114.63
+      },
+      {
+        "viaje": 3,
+        "poligono": 2,
+        "especie": 9,
+        "cantidad": 179.72
+      },
+      {
+        "viaje": 3,
+        "poligono": 3,
+        "especie": 10,
+        "cantidad": 21.55
+      }
+    ]
+  },
+  "D\u00eda 8": {
+    "compras": [
+      {
+        "especie": 3,
+        "vivero": 4,
+        "cantidad": 351.9
+      },
+      {
+        "especie": 8,
+        "vivero": 3,
+        "cantidad": 203.32
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 4,
+        "vivero": 3,
+        "cantidad": 121.7
+      },
+      {
+        "especie": 5,
+        "vivero": 2,
+        "cantidad": 139.21
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 4,
+        "edad": 1,
+        "cantidad": 121.7
+      },
+      {
+        "especie": 5,
+        "edad": 1,
+        "cantidad": 139.21
+      },
+      {
+        "especie": 6,
+        "edad": 2,
+        "cantidad": 240.0
+      },
+      {
+        "especie": 1,
+        "edad": 3,
+        "cantidad": 71.6
+      },
+      {
+        "especie": 9,
+        "edad": 7,
+        "cantidad": 315.89
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 9,
+        "edad": 7,
+        "cantidad": 315.89
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 2,
+        "poligono": 2,
+        "especie": 9,
+        "cantidad": 315.89
+      }
+    ]
+  },
+  "D\u00eda 9": {
+    "compras": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 313.9
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 3,
+        "vivero": 4,
+        "cantidad": 351.9
+      },
+      {
+        "especie": 8,
+        "vivero": 3,
+        "cantidad": 203.32
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 3,
+        "edad": 1,
+        "cantidad": 351.9
+      },
+      {
+        "especie": 8,
+        "edad": 1,
+        "cantidad": 203.32
+      },
+      {
+        "especie": 4,
+        "edad": 2,
+        "cantidad": 121.7
+      },
+      {
+        "especie": 5,
+        "edad": 2,
+        "cantidad": 139.21
+      },
+      {
+        "especie": 6,
+        "edad": 3,
+        "cantidad": 240.0
+      },
+      {
+        "especie": 1,
+        "edad": 4,
+        "cantidad": 71.6
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 6,
+        "edad": 3,
+        "cantidad": 240.0
+      },
+      {
+        "especie": 1,
+        "edad": 4,
+        "cantidad": 71.6
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 3,
+        "especie": 6,
+        "cantidad": 240.0
+      },
+      {
+        "viaje": 2,
+        "poligono": 4,
+        "especie": 1,
+        "cantidad": 71.6
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 10": {
+    "compras": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 63.9
+      },
+      {
+        "especie": 3,
+        "vivero": 3,
+        "cantidad": 249.0
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 313.9
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 1,
+        "cantidad": 313.9
+      },
+      {
+        "especie": 3,
+        "edad": 2,
+        "cantidad": 351.9
+      },
+      {
+        "especie": 8,
+        "edad": 2,
+        "cantidad": 203.32
+      },
+      {
+        "especie": 4,
+        "edad": 3,
+        "cantidad": 121.7
+      },
+      {
+        "especie": 5,
+        "edad": 3,
+        "cantidad": 139.21
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 4,
+        "edad": 3,
+        "cantidad": 121.7
+      },
+      {
+        "especie": 5,
+        "edad": 3,
+        "cantidad": 139.21
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 3,
+        "especie": 5,
+        "cantidad": 139.21
+      },
+      {
+        "viaje": 3,
+        "poligono": 3,
+        "especie": 4,
+        "cantidad": 121.7
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 11": {
+    "compras": [
+      {
+        "especie": 4,
+        "vivero": 3,
+        "cantidad": 142.3
+      },
+      {
+        "especie": 6,
+        "vivero": 3,
+        "cantidad": 227.0
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 63.9
+      },
+      {
+        "especie": 3,
+        "vivero": 3,
+        "cantidad": 249.0
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 1,
+        "cantidad": 63.9
+      },
+      {
+        "especie": 3,
+        "edad": 1,
+        "cantidad": 249.0
+      },
+      {
+        "especie": 2,
+        "edad": 2,
+        "cantidad": 313.9
+      },
+      {
+        "especie": 3,
+        "edad": 3,
+        "cantidad": 351.9
+      },
+      {
+        "especie": 8,
+        "edad": 3,
+        "cantidad": 203.32
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 3,
+        "edad": 3,
+        "cantidad": 108.29
+      },
+      {
+        "especie": 8,
+        "edad": 3,
+        "cantidad": 203.32
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 3,
+        "especie": 3,
+        "cantidad": 108.29
+      },
+      {
+        "viaje": 3,
+        "poligono": 3,
+        "especie": 8,
+        "cantidad": 203.32
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 12": {
+    "compras": [],
+    "transportes": [
+      {
+        "especie": 4,
+        "vivero": 3,
+        "cantidad": 142.3
+      },
+      {
+        "especie": 6,
+        "vivero": 3,
+        "cantidad": 227.0
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 4,
+        "edad": 1,
+        "cantidad": 142.3
+      },
+      {
+        "especie": 6,
+        "edad": 1,
+        "cantidad": 227.0
+      },
+      {
+        "especie": 2,
+        "edad": 2,
+        "cantidad": 63.9
+      },
+      {
+        "especie": 3,
+        "edad": 2,
+        "cantidad": 249.0
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 313.9
+      },
+      {
+        "especie": 3,
+        "edad": 4,
+        "cantidad": 243.61
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 313.9
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 3,
+        "poligono": 2,
+        "especie": 2,
+        "cantidad": 313.9
+      }
+    ]
+  },
+  "D\u00eda 13": {
+    "compras": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 314.9
+      }
+    ],
+    "transportes": [],
+    "inventario": [
+      {
+        "especie": 4,
+        "edad": 2,
+        "cantidad": 142.3
+      },
+      {
+        "especie": 6,
+        "edad": 2,
+        "cantidad": 227.0
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 63.9
+      },
+      {
+        "especie": 3,
+        "edad": 3,
+        "cantidad": 249.0
+      },
+      {
+        "especie": 3,
+        "edad": 5,
+        "cantidad": 243.61
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 63.9
+      },
+      {
+        "especie": 3,
+        "edad": 3,
+        "cantidad": 249.0
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 4,
+        "especie": 3,
+        "cantidad": 249.0
+      },
+      {
+        "viaje": 3,
+        "poligono": 3,
+        "especie": 2,
+        "cantidad": 63.9
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 14": {
+    "compras": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 312.6
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 314.9
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 1,
+        "cantidad": 314.9
+      },
+      {
+        "especie": 4,
+        "edad": 3,
+        "cantidad": 142.3
+      },
+      {
+        "especie": 6,
+        "edad": 3,
+        "cantidad": 227.0
+      },
+      {
+        "especie": 3,
+        "edad": 6,
+        "cantidad": 243.61
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 6,
+        "edad": 3,
+        "cantidad": 227.0
+      },
+      {
+        "especie": 3,
+        "edad": 6,
+        "cantidad": 87.9
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 2,
+        "poligono": 2,
+        "especie": 3,
+        "cantidad": 87.9
+      },
+      {
+        "viaje": 2,
+        "poligono": 4,
+        "especie": 6,
+        "cantidad": 227.0
+      }
+    ]
+  },
+  "D\u00eda 15": {
+    "compras": [
+      {
+        "especie": 4,
+        "vivero": 3,
+        "cantidad": 249.0
+      },
+      {
+        "especie": 10,
+        "vivero": 1,
+        "cantidad": 292.9
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 312.6
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 1,
+        "cantidad": 312.6
+      },
+      {
+        "especie": 2,
+        "edad": 2,
+        "cantidad": 314.9
+      },
+      {
+        "especie": 4,
+        "edad": 4,
+        "cantidad": 142.3
+      },
+      {
+        "especie": 3,
+        "edad": 7,
+        "cantidad": 155.71
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 3,
+        "edad": 7,
+        "cantidad": 155.71
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 3,
+        "poligono": 3,
+        "especie": 3,
+        "cantidad": 155.71
+      }
+    ]
+  },
+  "D\u00eda 16": {
+    "compras": [
+      {
+        "especie": 4,
+        "vivero": 3,
+        "cantidad": 63.6
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 4,
+        "vivero": 3,
+        "cantidad": 249.0
+      },
+      {
+        "especie": 10,
+        "vivero": 1,
+        "cantidad": 292.9
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 4,
+        "edad": 1,
+        "cantidad": 249.0
+      },
+      {
+        "especie": 10,
+        "edad": 1,
+        "cantidad": 292.9
+      },
+      {
+        "especie": 2,
+        "edad": 2,
+        "cantidad": 312.6
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 314.9
+      },
+      {
+        "especie": 4,
+        "edad": 5,
+        "cantidad": 142.3
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 314.9
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 3,
+        "poligono": 4,
+        "especie": 2,
+        "cantidad": 314.9
+      }
+    ]
+  },
+  "D\u00eda 17": {
+    "compras": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 186.7
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 4,
+        "vivero": 3,
+        "cantidad": 63.6
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 4,
+        "edad": 1,
+        "cantidad": 63.6
+      },
+      {
+        "especie": 4,
+        "edad": 2,
+        "cantidad": 249.0
+      },
+      {
+        "especie": 10,
+        "edad": 2,
+        "cantidad": 292.9
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 312.6
+      },
+      {
+        "especie": 4,
+        "edad": 6,
+        "cantidad": 142.3
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 312.6
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 3,
+        "poligono": 4,
+        "especie": 2,
+        "cantidad": 312.6
+      }
+    ]
+  },
+  "D\u00eda 18": {
+    "compras": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 625.81
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 186.7
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 1,
+        "cantidad": 186.7
+      },
+      {
+        "especie": 4,
+        "edad": 2,
+        "cantidad": 63.6
+      },
+      {
+        "especie": 4,
+        "edad": 3,
+        "cantidad": 249.0
+      },
+      {
+        "especie": 10,
+        "edad": 3,
+        "cantidad": 292.9
+      },
+      {
+        "especie": 4,
+        "edad": 7,
+        "cantidad": 142.3
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 10,
+        "edad": 3,
+        "cantidad": 168.0
+      },
+      {
+        "especie": 4,
+        "edad": 7,
+        "cantidad": 142.3
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 2,
+        "especie": 10,
+        "cantidad": 168.0
+      },
+      {
+        "viaje": 3,
+        "poligono": 3,
+        "especie": 4,
+        "cantidad": 142.3
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 19": {
+    "compras": [
+      {
+        "especie": 5,
+        "vivero": 2,
+        "cantidad": 311.29
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 625.81
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 1,
+        "cantidad": 625.81
+      },
+      {
+        "especie": 2,
+        "edad": 2,
+        "cantidad": 186.7
+      },
+      {
+        "especie": 4,
+        "edad": 3,
+        "cantidad": 63.6
+      },
+      {
+        "especie": 4,
+        "edad": 4,
+        "cantidad": 249.0
+      },
+      {
+        "especie": 10,
+        "edad": 4,
+        "cantidad": 124.9
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 4,
+        "edad": 3,
+        "cantidad": 63.6
+      },
+      {
+        "especie": 4,
+        "edad": 4,
+        "cantidad": 249.0
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 2,
+        "poligono": 2,
+        "especie": 4,
+        "cantidad": 63.6
+      },
+      {
+        "viaje": 3,
+        "poligono": 4,
+        "especie": 4,
+        "cantidad": 249.0
+      }
+    ]
+  },
+  "D\u00eda 20": {
+    "compras": [],
+    "transportes": [
+      {
+        "especie": 5,
+        "vivero": 2,
+        "cantidad": 311.29
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 5,
+        "edad": 1,
+        "cantidad": 311.29
+      },
+      {
+        "especie": 2,
+        "edad": 2,
+        "cantidad": 625.81
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 186.7
+      },
+      {
+        "especie": 10,
+        "edad": 5,
+        "cantidad": 124.9
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 186.7
+      },
+      {
+        "especie": 10,
+        "edad": 5,
+        "cantidad": 124.9
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 2,
+        "poligono": 3,
+        "especie": 10,
+        "cantidad": 124.9
+      },
+      {
+        "viaje": 3,
+        "poligono": 2,
+        "especie": 2,
+        "cantidad": 186.7
+      }
+    ]
+  },
+  "D\u00eda 21": {
+    "compras": [
+      {
+        "especie": 5,
+        "vivero": 2,
+        "cantidad": 154.59
+      },
+      {
+        "especie": 8,
+        "vivero": 3,
+        "cantidad": 315.89
+      }
+    ],
+    "transportes": [],
+    "inventario": [
+      {
+        "especie": 5,
+        "edad": 2,
+        "cantidad": 311.29
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 625.81
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 196.09
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 116.81
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 2,
+        "poligono": 3,
+        "especie": 2,
+        "cantidad": 116.81
+      },
+      {
+        "viaje": 3,
+        "poligono": 2,
+        "especie": 2,
+        "cantidad": 196.09
+      }
+    ]
+  },
+  "D\u00eda 22": {
+    "compras": [
+      {
+        "especie": 7,
+        "vivero": 2,
+        "cantidad": 363.8
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 5,
+        "vivero": 2,
+        "cantidad": 154.59
+      },
+      {
+        "especie": 8,
+        "vivero": 3,
+        "cantidad": 315.89
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 5,
+        "edad": 1,
+        "cantidad": 154.59
+      },
+      {
+        "especie": 8,
+        "edad": 1,
+        "cantidad": 315.89
+      },
+      {
+        "especie": 5,
+        "edad": 3,
+        "cantidad": 311.29
+      },
+      {
+        "especie": 2,
+        "edad": 4,
+        "cantidad": 312.9
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 5,
+        "edad": 3,
+        "cantidad": 17.29
+      },
+      {
+        "especie": 5,
+        "edad": 3,
+        "cantidad": 294.0
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 2,
+        "poligono": 4,
+        "especie": 5,
+        "cantidad": 294.0
+      },
+      {
+        "viaje": 3,
+        "poligono": 2,
+        "especie": 5,
+        "cantidad": 17.29
+      }
+    ]
+  },
+  "D\u00eda 23": {
+    "compras": [
+      {
+        "especie": 7,
+        "vivero": 2,
+        "cantidad": 313.59
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 7,
+        "vivero": 2,
+        "cantidad": 363.8
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 7,
+        "edad": 1,
+        "cantidad": 363.8
+      },
+      {
+        "especie": 5,
+        "edad": 2,
+        "cantidad": 154.59
+      },
+      {
+        "especie": 8,
+        "edad": 2,
+        "cantidad": 315.89
+      },
+      {
+        "especie": 2,
+        "edad": 5,
+        "cantidad": 312.9
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 2,
+        "edad": 5,
+        "cantidad": 312.9
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 3,
+        "especie": 2,
+        "cantidad": 312.9
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 24": {
+    "compras": [
+      {
+        "especie": 10,
+        "vivero": 1,
+        "cantidad": 159.0
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 7,
+        "vivero": 2,
+        "cantidad": 313.59
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 7,
+        "edad": 1,
+        "cantidad": 313.59
+      },
+      {
+        "especie": 7,
+        "edad": 2,
+        "cantidad": 363.8
+      },
+      {
+        "especie": 5,
+        "edad": 3,
+        "cantidad": 154.59
+      },
+      {
+        "especie": 8,
+        "edad": 3,
+        "cantidad": 315.89
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 8,
+        "edad": 3,
+        "cantidad": 315.89
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 3,
+        "poligono": 4,
+        "especie": 8,
+        "cantidad": 315.89
+      }
+    ]
+  },
+  "D\u00eda 25": {
+    "compras": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 312.6
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 10,
+        "vivero": 1,
+        "cantidad": 159.0
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 10,
+        "edad": 1,
+        "cantidad": 159.0
+      },
+      {
+        "especie": 7,
+        "edad": 2,
+        "cantidad": 313.59
+      },
+      {
+        "especie": 7,
+        "edad": 3,
+        "cantidad": 363.8
+      },
+      {
+        "especie": 5,
+        "edad": 4,
+        "cantidad": 154.59
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 7,
+        "edad": 3,
+        "cantidad": 314.9
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 2,
+        "poligono": 3,
+        "especie": 7,
+        "cantidad": 314.9
+      }
+    ]
+  },
+  "D\u00eda 26": {
+    "compras": [
+      {
+        "especie": 1,
+        "vivero": 4,
+        "cantidad": 456.4
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 312.6
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 1,
+        "cantidad": 312.6
+      },
+      {
+        "especie": 10,
+        "edad": 2,
+        "cantidad": 159.0
+      },
+      {
+        "especie": 7,
+        "edad": 3,
+        "cantidad": 313.59
+      },
+      {
+        "especie": 7,
+        "edad": 4,
+        "cantidad": 48.9
+      },
+      {
+        "especie": 5,
+        "edad": 5,
+        "cantidad": 154.59
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 7,
+        "edad": 3,
+        "cantidad": 313.59
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 3,
+        "poligono": 4,
+        "especie": 7,
+        "cantidad": 313.59
+      }
+    ]
+  },
+  "D\u00eda 27": {
+    "compras": [
+      {
+        "especie": 1,
+        "vivero": 4,
+        "cantidad": 71.6
+      },
+      {
+        "especie": 6,
+        "vivero": 3,
+        "cantidad": 240.0
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 1,
+        "vivero": 4,
+        "cantidad": 456.4
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 1,
+        "edad": 1,
+        "cantidad": 456.4
+      },
+      {
+        "especie": 2,
+        "edad": 2,
+        "cantidad": 312.6
+      },
+      {
+        "especie": 10,
+        "edad": 3,
+        "cantidad": 159.0
+      },
+      {
+        "especie": 7,
+        "edad": 5,
+        "cantidad": 48.9
+      },
+      {
+        "especie": 5,
+        "edad": 6,
+        "cantidad": 154.59
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 10,
+        "edad": 3,
+        "cantidad": 159.0
+      },
+      {
+        "especie": 5,
+        "edad": 6,
+        "cantidad": 154.59
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 3,
+        "especie": 5,
+        "cantidad": 154.59
+      },
+      {
+        "viaje": 1,
+        "poligono": 4,
+        "especie": 10,
+        "cantidad": 159.0
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 28": {
+    "compras": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 311.29
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 1,
+        "vivero": 4,
+        "cantidad": 71.6
+      },
+      {
+        "especie": 6,
+        "vivero": 3,
+        "cantidad": 240.0
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 1,
+        "edad": 1,
+        "cantidad": 71.6
+      },
+      {
+        "especie": 6,
+        "edad": 1,
+        "cantidad": 240.0
+      },
+      {
+        "especie": 1,
+        "edad": 2,
+        "cantidad": 456.4
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 312.6
+      },
+      {
+        "especie": 7,
+        "edad": 6,
+        "cantidad": 48.9
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 312.6
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 3,
+        "especie": 2,
+        "cantidad": 312.6
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 29": {
+    "compras": [
+      {
+        "especie": 1,
+        "vivero": 4,
+        "cantidad": 177.4
+      },
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 258.57
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 311.29
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 1,
+        "cantidad": 311.29
+      },
+      {
+        "especie": 1,
+        "edad": 2,
+        "cantidad": 71.6
+      },
+      {
+        "especie": 6,
+        "edad": 2,
+        "cantidad": 240.0
+      },
+      {
+        "especie": 1,
+        "edad": 3,
+        "cantidad": 456.4
+      },
+      {
+        "especie": 7,
+        "edad": 7,
+        "cantidad": 48.9
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 1,
+        "edad": 3,
+        "cantidad": 264.0
+      },
+      {
+        "especie": 7,
+        "edad": 7,
+        "cantidad": 48.9
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 3,
+        "poligono": 2,
+        "especie": 1,
+        "cantidad": 264.0
+      },
+      {
+        "viaje": 3,
+        "poligono": 2,
+        "especie": 7,
+        "cantidad": 48.9
+      }
+    ]
+  },
+  "D\u00eda 30": {
+    "compras": [
+      {
+        "especie": 4,
+        "vivero": 3,
+        "cantidad": 35.6
+      },
+      {
+        "especie": 8,
+        "vivero": 3,
+        "cantidad": 94.1
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 1,
+        "vivero": 4,
+        "cantidad": 177.4
+      },
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 258.57
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 1,
+        "edad": 1,
+        "cantidad": 177.4
+      },
+      {
+        "especie": 2,
+        "edad": 1,
+        "cantidad": 258.57
+      },
+      {
+        "especie": 2,
+        "edad": 2,
+        "cantidad": 311.29
+      },
+      {
+        "especie": 1,
+        "edad": 3,
+        "cantidad": 71.6
+      },
+      {
+        "especie": 6,
+        "edad": 3,
+        "cantidad": 240.0
+      },
+      {
+        "especie": 1,
+        "edad": 4,
+        "cantidad": 192.4
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 6,
+        "edad": 3,
+        "cantidad": 240.0
+      },
+      {
+        "especie": 1,
+        "edad": 3,
+        "cantidad": 71.6
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 2,
+        "especie": 6,
+        "cantidad": 240.0
+      },
+      {
+        "viaje": 1,
+        "poligono": 3,
+        "especie": 1,
+        "cantidad": 71.6
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 31": {
+    "compras": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 443.18
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 4,
+        "vivero": 3,
+        "cantidad": 35.6
+      },
+      {
+        "especie": 8,
+        "vivero": 3,
+        "cantidad": 94.1
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 4,
+        "edad": 1,
+        "cantidad": 35.6
+      },
+      {
+        "especie": 8,
+        "edad": 1,
+        "cantidad": 94.1
+      },
+      {
+        "especie": 1,
+        "edad": 2,
+        "cantidad": 177.4
+      },
+      {
+        "especie": 2,
+        "edad": 2,
+        "cantidad": 258.57
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 311.29
+      },
+      {
+        "especie": 1,
+        "edad": 5,
+        "cantidad": 192.4
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 311.29
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 3,
+        "poligono": 3,
+        "especie": 2,
+        "cantidad": 311.29
+      }
+    ]
+  },
+  "D\u00eda 32": {
+    "compras": [
+      {
+        "especie": 3,
+        "vivero": 4,
+        "cantidad": 176.1
+      },
+      {
+        "especie": 4,
+        "vivero": 3,
+        "cantidad": 164.8
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 443.18
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 1,
+        "cantidad": 443.18
+      },
+      {
+        "especie": 4,
+        "edad": 2,
+        "cantidad": 35.6
+      },
+      {
+        "especie": 8,
+        "edad": 2,
+        "cantidad": 94.1
+      },
+      {
+        "especie": 1,
+        "edad": 3,
+        "cantidad": 177.4
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 258.57
+      },
+      {
+        "especie": 1,
+        "edad": 6,
+        "cantidad": 192.4
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 1,
+        "edad": 3,
+        "cantidad": 177.4
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 136.19
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 4,
+        "especie": 1,
+        "cantidad": 177.4
+      },
+      {
+        "viaje": 1,
+        "poligono": 4,
+        "especie": 2,
+        "cantidad": 136.19
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 33": {
+    "compras": [
+      {
+        "especie": 7,
+        "vivero": 2,
+        "cantidad": 124.41
+      },
+      {
+        "especie": 8,
+        "vivero": 3,
+        "cantidad": 69.11
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 3,
+        "vivero": 4,
+        "cantidad": 176.1
+      },
+      {
+        "especie": 4,
+        "vivero": 3,
+        "cantidad": 164.8
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 3,
+        "edad": 1,
+        "cantidad": 176.1
+      },
+      {
+        "especie": 4,
+        "edad": 1,
+        "cantidad": 164.8
+      },
+      {
+        "especie": 2,
+        "edad": 2,
+        "cantidad": 443.18
+      },
+      {
+        "especie": 4,
+        "edad": 3,
+        "cantidad": 35.6
+      },
+      {
+        "especie": 8,
+        "edad": 3,
+        "cantidad": 94.1
+      },
+      {
+        "especie": 2,
+        "edad": 4,
+        "cantidad": 122.37
+      },
+      {
+        "especie": 1,
+        "edad": 7,
+        "cantidad": 192.4
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 4,
+        "edad": 3,
+        "cantidad": 35.6
+      },
+      {
+        "especie": 8,
+        "edad": 3,
+        "cantidad": 86.89
+      },
+      {
+        "especie": 1,
+        "edad": 7,
+        "cantidad": 192.4
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 2,
+        "especie": 4,
+        "cantidad": 35.6
+      },
+      {
+        "viaje": 1,
+        "poligono": 3,
+        "especie": 1,
+        "cantidad": 192.4
+      },
+      {
+        "viaje": 2,
+        "poligono": 2,
+        "especie": 8,
+        "cantidad": 86.89
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 34": {
+    "compras": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 5.42
+      },
+      {
+        "especie": 7,
+        "vivero": 2,
+        "cantidad": 148.1
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 7,
+        "vivero": 2,
+        "cantidad": 124.41
+      },
+      {
+        "especie": 8,
+        "vivero": 3,
+        "cantidad": 69.11
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 7,
+        "edad": 1,
+        "cantidad": 124.41
+      },
+      {
+        "especie": 8,
+        "edad": 1,
+        "cantidad": 69.11
+      },
+      {
+        "especie": 3,
+        "edad": 2,
+        "cantidad": 176.1
+      },
+      {
+        "especie": 4,
+        "edad": 2,
+        "cantidad": 164.8
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 443.18
+      },
+      {
+        "especie": 8,
+        "edad": 4,
+        "cantidad": 7.21
+      },
+      {
+        "especie": 2,
+        "edad": 5,
+        "cantidad": 122.37
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 306.69
+      },
+      {
+        "especie": 8,
+        "edad": 4,
+        "cantidad": 7.21
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 2,
+        "poligono": 2,
+        "especie": 8,
+        "cantidad": 7.21
+      },
+      {
+        "viaje": 3,
+        "poligono": 4,
+        "especie": 2,
+        "cantidad": 306.69
+      }
+    ]
+  },
+  "D\u00eda 35": {
+    "compras": [
+      {
+        "especie": 7,
+        "vivero": 2,
+        "cantidad": 101.5
+      },
+      {
+        "especie": 8,
+        "vivero": 3,
+        "cantidad": 204.68
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 5.42
+      },
+      {
+        "especie": 7,
+        "vivero": 2,
+        "cantidad": 148.1
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 1,
+        "cantidad": 5.42
+      },
+      {
+        "especie": 7,
+        "edad": 1,
+        "cantidad": 148.1
+      },
+      {
+        "especie": 7,
+        "edad": 2,
+        "cantidad": 124.41
+      },
+      {
+        "especie": 8,
+        "edad": 2,
+        "cantidad": 69.11
+      },
+      {
+        "especie": 3,
+        "edad": 3,
+        "cantidad": 176.1
+      },
+      {
+        "especie": 4,
+        "edad": 3,
+        "cantidad": 164.8
+      },
+      {
+        "especie": 2,
+        "edad": 4,
+        "cantidad": 136.49
+      },
+      {
+        "especie": 2,
+        "edad": 6,
+        "cantidad": 122.37
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 3,
+        "edad": 3,
+        "cantidad": 176.1
+      },
+      {
+        "especie": 2,
+        "edad": 4,
+        "cantidad": 136.49
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 2,
+        "especie": 3,
+        "cantidad": 176.1
+      },
+      {
+        "viaje": 3,
+        "poligono": 3,
+        "especie": 2,
+        "cantidad": 136.49
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 36": {
+    "compras": [
+      {
+        "especie": 7,
+        "vivero": 2,
+        "cantidad": 312.6
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 7,
+        "vivero": 2,
+        "cantidad": 101.5
+      },
+      {
+        "especie": 8,
+        "vivero": 3,
+        "cantidad": 204.68
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 7,
+        "edad": 1,
+        "cantidad": 101.5
+      },
+      {
+        "especie": 8,
+        "edad": 1,
+        "cantidad": 204.68
+      },
+      {
+        "especie": 2,
+        "edad": 2,
+        "cantidad": 5.42
+      },
+      {
+        "especie": 7,
+        "edad": 2,
+        "cantidad": 148.1
+      },
+      {
+        "especie": 7,
+        "edad": 3,
+        "cantidad": 124.41
+      },
+      {
+        "especie": 8,
+        "edad": 3,
+        "cantidad": 69.11
+      },
+      {
+        "especie": 4,
+        "edad": 4,
+        "cantidad": 164.8
+      },
+      {
+        "especie": 2,
+        "edad": 7,
+        "cantidad": 122.37
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 7,
+        "edad": 3,
+        "cantidad": 124.41
+      },
+      {
+        "especie": 8,
+        "edad": 3,
+        "cantidad": 69.11
+      },
+      {
+        "especie": 2,
+        "edad": 7,
+        "cantidad": 122.37
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 2,
+        "especie": 2,
+        "cantidad": 122.37
+      },
+      {
+        "viaje": 1,
+        "poligono": 4,
+        "especie": 7,
+        "cantidad": 124.41
+      },
+      {
+        "viaje": 1,
+        "poligono": 4,
+        "especie": 8,
+        "cantidad": 69.11
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 37": {
+    "compras": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 314.9
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 7,
+        "vivero": 2,
+        "cantidad": 312.6
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 7,
+        "edad": 1,
+        "cantidad": 312.6
+      },
+      {
+        "especie": 7,
+        "edad": 2,
+        "cantidad": 101.5
+      },
+      {
+        "especie": 8,
+        "edad": 2,
+        "cantidad": 204.68
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 5.42
+      },
+      {
+        "especie": 7,
+        "edad": 3,
+        "cantidad": 148.1
+      },
+      {
+        "especie": 4,
+        "edad": 5,
+        "cantidad": 164.8
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 7,
+        "edad": 3,
+        "cantidad": 148.1
+      },
+      {
+        "especie": 4,
+        "edad": 5,
+        "cantidad": 164.8
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 2,
+        "especie": 4,
+        "cantidad": 164.8
+      },
+      {
+        "viaje": 3,
+        "poligono": 3,
+        "especie": 7,
+        "cantidad": 148.1
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 38": {
+    "compras": [
+      {
+        "especie": 5,
+        "vivero": 2,
+        "cantidad": 312.9
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 2,
+        "vivero": 4,
+        "cantidad": 314.9
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 2,
+        "edad": 1,
+        "cantidad": 314.9
+      },
+      {
+        "especie": 7,
+        "edad": 2,
+        "cantidad": 312.6
+      },
+      {
+        "especie": 7,
+        "edad": 3,
+        "cantidad": 101.5
+      },
+      {
+        "especie": 8,
+        "edad": 3,
+        "cantidad": 204.68
+      },
+      {
+        "especie": 2,
+        "edad": 4,
+        "cantidad": 5.42
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 7,
+        "edad": 3,
+        "cantidad": 101.5
+      },
+      {
+        "especie": 8,
+        "edad": 3,
+        "cantidad": 204.68
+      },
+      {
+        "especie": 2,
+        "edad": 4,
+        "cantidad": 5.42
+      }
+    ],
+    "entregas": [
+      {
+        "viaje": 1,
+        "poligono": 2,
+        "especie": 7,
+        "cantidad": 101.5
+      },
+      {
+        "viaje": 3,
+        "poligono": 2,
+        "especie": 2,
+        "cantidad": 5.42
+      },
+      {
+        "viaje": 3,
+        "poligono": 3,
+        "especie": 8,
+        "cantidad": 204.68
+      }
+    ],
+    "transporte_activado": false
+  },
+  "D\u00eda 39": {
+    "compras": [
+      {
+        "especie": 8,
+        "vivero": 3,
+        "cantidad": 313.9
+      }
+    ],
+    "transportes": [
+      {
+        "especie": 5,
+        "vivero": 2,
+        "cantidad": 312.9
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 5,
+        "edad": 1,
+        "cantidad": 312.9
+      },
+      {
+        "especie": 2,
+        "edad": 2,
+        "cantidad": 314.9
+      },
+      {
+        "especie": 7,
+        "edad": 3,
+        "cantidad": 312.6
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 7,
+        "edad": 3,
+        "cantidad": 312.6
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 3,
+        "poligono": 2,
+        "especie": 7,
+        "cantidad": 312.6
+      }
+    ]
+  },
+  "D\u00eda 40": {
+    "compras": [],
+    "transportes": [
+      {
+        "especie": 8,
+        "vivero": 3,
+        "cantidad": 313.9
+      }
+    ],
+    "inventario": [
+      {
+        "especie": 8,
+        "edad": 1,
+        "cantidad": 313.9
+      },
+      {
+        "especie": 5,
+        "edad": 2,
+        "cantidad": 312.9
+      },
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 314.9
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 2,
+        "edad": 3,
+        "cantidad": 314.9
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 2,
+        "poligono": 2,
+        "especie": 2,
+        "cantidad": 314.9
+      }
+    ]
+  },
+  "D\u00eda 41": {
+    "compras": [],
+    "transportes": [],
+    "inventario": [
+      {
+        "especie": 8,
+        "edad": 2,
+        "cantidad": 313.9
+      },
+      {
+        "especie": 5,
+        "edad": 3,
+        "cantidad": 312.9
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 5,
+        "edad": 3,
+        "cantidad": 294.71
+      },
+      {
+        "especie": 5,
+        "edad": 3,
+        "cantidad": 18.2
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 3,
+        "poligono": 2,
+        "especie": 5,
+        "cantidad": 294.71
+      },
+      {
+        "viaje": 3,
+        "poligono": 3,
+        "especie": 5,
+        "cantidad": 18.2
+      }
+    ]
+  },
+  "D\u00eda 42": {
+    "compras": [],
+    "transportes": [],
+    "inventario": [
+      {
+        "especie": 8,
+        "edad": 3,
+        "cantidad": 313.9
+      }
+    ],
+    "siembra": [
+      {
+        "especie": 8,
+        "edad": 3,
+        "cantidad": 313.9
+      }
+    ],
+    "transporte_activado": false,
+    "entregas": [
+      {
+        "viaje": 2,
+        "poligono": 2,
+        "especie": 8,
+        "cantidad": 313.9
+      }
+    ]
+  }
+}

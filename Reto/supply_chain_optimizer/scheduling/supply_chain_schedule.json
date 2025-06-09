@@ -2,20 +2,13 @@
   {
     "day": 1,
     "polygon": 18,
-    "specie": "Prosopis laevigata",
-    "supplier": "Vivero",
-    "amount": 490
-  },
-  {
-    "day": 1,
-    "polygon": 18,
     "specie": "Agave salmiana",
     "supplier": "Laguna seca",
     "amount": 1115
   },
   {
     "day": 1,
-    "polygon": 4,
+    "polygon": 3,
     "specie": "Agave scabra",
     "supplier": "Laguna seca",
     "amount": 264
@@ -23,36 +16,8 @@
   {
     "day": 1,
     "polygon": 4,
-    "specie": "Opuntia engelmani",
-    "supplier": "Laguna seca",
-    "amount": 240
-  },
-  {
-    "day": 1,
-    "polygon": 3,
-    "specie": "Yucca filifera",
-    "supplier": "Vivero",
-    "amount": 168
-  },
-  {
-    "day": 1,
-    "polygon": 2,
-    "specie": "Yucca filifera",
-    "supplier": "Vivero",
-    "amount": 158
-  },
-  {
-    "day": 1,
-    "polygon": 3,
-    "specie": "Opuntia cantabrigiensis",
+    "specie": "Agave scabra",
     "supplier": "Moctezuma",
-    "amount": 312
-  },
-  {
-    "day": 1,
-    "polygon": 4,
-    "specie": "Agave striata",
-    "supplier": "Venado",
     "amount": 264
   },
   {
@@ -60,112 +25,126 @@
     "polygon": 3,
     "specie": "Agave salmiana",
     "supplier": "Laguna seca",
-    "amount": 989
+    "amount": 1254
   },
   {
-    "day": 5,
-    "polygon": 2,
-    "specie": "Prosopis laevigata",
-    "supplier": "Vivero",
-    "amount": 518
+    "day": 1,
+    "polygon": 3,
+    "specie": "Opuntia robusta",
+    "supplier": "Venado",
+    "amount": 463
+  },
+  {
+    "day": 1,
+    "polygon": 3,
+    "specie": "Agave striata",
+    "supplier": "Moctezuma",
+    "amount": 264
+  },
+  {
+    "day": 1,
+    "polygon": 4,
+    "specie": "Agave salmiana",
+    "supplier": "Laguna seca",
+    "amount": 376
   },
   {
     "day": 5,
     "polygon": 18,
-    "specie": "Agave lechuguilla",
+    "specie": "Opuntia robusta",
     "supplier": "Laguna seca",
-    "amount": 234
+    "amount": 412
+  },
+  {
+    "day": 5,
+    "polygon": 2,
+    "specie": "Opuntia streptacanta",
+    "supplier": "Venado",
+    "amount": 383
+  },
+  {
+    "day": 5,
+    "polygon": 2,
+    "specie": "Opuntia robusta",
+    "supplier": "Laguna seca",
+    "amount": 436
   },
   {
     "day": 5,
     "polygon": 18,
     "specie": "Agave striata",
-    "supplier": "Venado",
+    "supplier": "Moctezuma",
     "amount": 234
   },
   {
     "day": 5,
-    "polygon": 2,
-    "specie": "Opuntia engelmani",
-    "supplier": "Venado",
-    "amount": 225
-  },
-  {
-    "day": 5,
-    "polygon": 4,
+    "polygon": 3,
     "specie": "Agave lechuguilla",
     "supplier": "Laguna seca",
-    "amount": 6
+    "amount": 53
   },
   {
     "day": 6,
-    "polygon": 4,
-    "specie": "Agave lechuguilla",
-    "supplier": "Laguna seca",
+    "polygon": 3,
+    "specie": "Opuntia streptacanta",
+    "supplier": "Venado",
+    "amount": 408
+  },
+  {
+    "day": 6,
+    "polygon": 18,
+    "specie": "Opuntia streptacanta",
+    "supplier": "Venado",
     "amount": 258
   },
   {
-    "day": 6,
+    "day": 7,
     "polygon": 2,
-    "specie": "Agave scabra",
-    "supplier": "Moctezuma",
-    "amount": 248
+    "specie": "Agave salmiana",
+    "supplier": "Laguna seca",
+    "amount": 502
   },
   {
-    "day": 6,
-    "polygon": 2,
+    "day": 8,
+    "polygon": 3,
+    "specie": "Prosopis laevigata",
+    "supplier": "Vivero",
+    "amount": 551
+  },
+  {
+    "day": 8,
+    "polygon": 4,
     "specie": "Opuntia robusta",
     "supplier": "Laguna seca",
-    "amount": 298
+    "amount": 463
   },
   {
-    "day": 7,
+    "day": 8,
     "polygon": 18,
     "specie": "Opuntia engelmani",
     "supplier": "Venado",
     "amount": 213
   },
   {
-    "day": 7,
-    "polygon": 18,
-    "specie": "Opuntia robusta",
-    "supplier": "Venado",
-    "amount": 412
-  },
-  {
-    "day": 7,
-    "polygon": 4,
-    "specie": "Agave salmiana",
-    "supplier": "Laguna seca",
-    "amount": 906
-  },
-  {
     "day": 8,
-    "polygon": 2,
-    "specie": "Opuntia robusta",
-    "supplier": "Laguna seca",
-    "amount": 138
-  },
-  {
-    "day": 8,
-    "polygon": 18,
-    "specie": "Agave scabra",
-    "supplier": "Moctezuma",
-    "amount": 234
-  },
-  {
-    "day": 8,
-    "polygon": 4,
-    "specie": "Agave salmiana",
-    "supplier": "Laguna seca",
-    "amount": 76
+    "polygon": 3,
+    "specie": "Yucca filifera",
+    "supplier": "Vivero",
+    "amount": 87
   },
   {
     "day": 9,
     "polygon": 2,
-    "specie": "Agave striata",
-    "supplier": "Moctezuma",
-    "amount": 248
+    "specie": "Prosopis laevigata",
+    "supplier": "Vivero",
+    "amount": 518
+  },
+  {
+    "day": 9,
+    "polygon": 4,
+    "specie": "Opuntia streptacanta",
+    "supplier": "Venado",
+    "amount": 408
   },
   {
     "day": 9,
@@ -183,129 +162,45 @@
   },
   {
     "day": 9,
-    "polygon": 3,
-    "specie": "Opuntia robusta",
-    "supplier": "Venado",
-    "amount": 463
-  },
-  {
-    "day": 9,
-    "polygon": 3,
-    "specie": "Prosopis laevigata",
-    "supplier": "Vivero",
-    "amount": 551
-  },
-  {
-    "day": 9,
-    "polygon": 3,
-    "specie": "Agave lechuguilla",
-    "supplier": "Laguna seca",
-    "amount": 264
-  },
-  {
-    "day": 9,
-    "polygon": 3,
-    "specie": "Agave striata",
-    "supplier": "Moctezuma",
-    "amount": 264
-  },
-  {
-    "day": 9,
-    "polygon": 2,
-    "specie": "Opuntia cantabrigiensis",
-    "supplier": "Venado",
-    "amount": 293
-  },
-  {
-    "day": 9,
-    "polygon": 18,
-    "specie": "Opuntia cantabrigiensis",
-    "supplier": "Moctezuma",
-    "amount": 277
-  },
-  {
-    "day": 9,
-    "polygon": 3,
-    "specie": "Agave scabra",
-    "supplier": "Laguna seca",
-    "amount": 264
-  },
-  {
-    "day": 9,
-    "polygon": 2,
-    "specie": "Agave lechuguilla",
-    "supplier": "Laguna seca",
-    "amount": 248
-  },
-  {
-    "day": 9,
-    "polygon": 2,
-    "specie": "Opuntia streptacanta",
-    "supplier": "Venado",
-    "amount": 265
-  },
-  {
-    "day": 10,
-    "polygon": 2,
-    "specie": "Agave salmiana",
-    "supplier": "Laguna seca",
-    "amount": 1179
-  },
-  {
-    "day": 10,
-    "polygon": 4,
-    "specie": "Opuntia streptacanta",
-    "supplier": "Venado",
-    "amount": 408
-  },
-  {
-    "day": 10,
-    "polygon": 3,
-    "specie": "Opuntia streptacanta",
-    "supplier": "Venado",
-    "amount": 408
-  },
-  {
-    "day": 10,
-    "polygon": 4,
-    "specie": "Agave salmiana",
-    "supplier": "Laguna seca",
-    "amount": 272
-  },
-  {
-    "day": 10,
-    "polygon": 18,
-    "specie": "Opuntia streptacanta",
-    "supplier": "Venado",
-    "amount": 362
-  },
-  {
-    "day": 10,
-    "polygon": 2,
-    "specie": "Opuntia streptacanta",
-    "supplier": "Venado",
-    "amount": 118
-  },
-  {
-    "day": 10,
-    "polygon": 3,
-    "specie": "Opuntia engelmani",
-    "supplier": "Venado",
-    "amount": 240
-  },
-  {
-    "day": 10,
-    "polygon": 4,
-    "specie": "Opuntia robusta",
-    "supplier": "Venado",
-    "amount": 463
-  },
-  {
-    "day": 10,
     "polygon": 4,
     "specie": "Yucca filifera",
     "supplier": "Vivero",
     "amount": 168
+  },
+  {
+    "day": 9,
+    "polygon": 18,
+    "specie": "Prosopis laevigata",
+    "supplier": "Vivero",
+    "amount": 490
+  },
+  {
+    "day": 9,
+    "polygon": 4,
+    "specie": "Agave lechuguilla",
+    "supplier": "Laguna seca",
+    "amount": 264
+  },
+  {
+    "day": 9,
+    "polygon": 4,
+    "specie": "Agave salmiana",
+    "supplier": "Laguna seca",
+    "amount": 878
+  },
+  {
+    "day": 9,
+    "polygon": 3,
+    "specie": "Agave lechuguilla",
+    "supplier": "Laguna seca",
+    "amount": 211
+  },
+  {
+    "day": 9,
+    "polygon": 3,
+    "specie": "Opuntia cantabrigiensis",
+    "supplier": "Venado",
+    "amount": 200
   },
   {
     "day": 10,
@@ -316,16 +211,121 @@
   },
   {
     "day": 10,
-    "polygon": 3,
+    "polygon": 2,
     "specie": "Agave salmiana",
     "supplier": "Laguna seca",
-    "amount": 233
+    "amount": 677
+  },
+  {
+    "day": 10,
+    "polygon": 4,
+    "specie": "Opuntia engelmani",
+    "supplier": "Venado",
+    "amount": 240
+  },
+  {
+    "day": 10,
+    "polygon": 3,
+    "specie": "Yucca filifera",
+    "supplier": "Vivero",
+    "amount": 81
+  },
+  {
+    "day": 10,
+    "polygon": 2,
+    "specie": "Opuntia cantabrigiensis",
+    "supplier": "Moctezuma",
+    "amount": 293
+  },
+  {
+    "day": 10,
+    "polygon": 18,
+    "specie": "Opuntia cantabrigiensis",
+    "supplier": "Moctezuma",
+    "amount": 277
+  },
+  {
+    "day": 10,
+    "polygon": 2,
+    "specie": "Yucca filifera",
+    "supplier": "Vivero",
+    "amount": 158
+  },
+  {
+    "day": 10,
+    "polygon": 2,
+    "specie": "Agave lechuguilla",
+    "supplier": "Laguna seca",
+    "amount": 248
+  },
+  {
+    "day": 10,
+    "polygon": 2,
+    "specie": "Opuntia engelmani",
+    "supplier": "Venado",
+    "amount": 225
+  },
+  {
+    "day": 10,
+    "polygon": 2,
+    "specie": "Agave scabra",
+    "supplier": "Laguna seca",
+    "amount": 248
+  },
+  {
+    "day": 10,
+    "polygon": 4,
+    "specie": "Agave striata",
+    "supplier": "Moctezuma",
+    "amount": 264
+  },
+  {
+    "day": 10,
+    "polygon": 2,
+    "specie": "Agave striata",
+    "supplier": "Venado",
+    "amount": 248
+  },
+  {
+    "day": 10,
+    "polygon": 3,
+    "specie": "Opuntia cantabrigiensis",
+    "supplier": "Moctezuma",
+    "amount": 112
+  },
+  {
+    "day": 10,
+    "polygon": 3,
+    "specie": "Opuntia engelmani",
+    "supplier": "Laguna seca",
+    "amount": 240
+  },
+  {
+    "day": 10,
+    "polygon": 18,
+    "specie": "Agave scabra",
+    "supplier": "Laguna seca",
+    "amount": 234
+  },
+  {
+    "day": 10,
+    "polygon": 18,
+    "specie": "Agave lechuguilla",
+    "supplier": "Laguna seca",
+    "amount": 234
+  },
+  {
+    "day": 10,
+    "polygon": 18,
+    "specie": "Opuntia streptacanta",
+    "supplier": "Venado",
+    "amount": 72
   },
   {
     "day": 11,
-    "polygon": 3,
-    "specie": "Agave salmiana",
-    "supplier": "Laguna seca",
+    "polygon": 18,
+    "specie": "Opuntia streptacanta",
+    "supplier": "Venado",
     "amount": 32
   }
 ]

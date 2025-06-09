@@ -67,8 +67,8 @@ class SASCOpt:
         initial_remaining: Optional[pd.DataFrame] = None
     ) -> Tuple[List[Tuple[int, Any, Any, Any, float]], List[Dict]]:
         """
-        Generates a schedule from the given demands starting at `start_day`.
-        If `initial_remaining` is given, uses that instead of recalculating from self.demands.
+        Generates a schedule from the given demands starting at start_day.
+        If initial_remaining is given, uses that instead of recalculating from self.demands.
         """
         remaining = initial_remaining if initial_remaining is not None else demands_df.copy()
         order_schedule = []
@@ -104,14 +104,23 @@ class SASCOpt:
             if day_plan:
                 order_schedule.extend(day_plan)
                 remaining.loc[fulfilled_indices, 'demand'] = 0
-                self.warehouse.receive_deliveries(day, day_plan)
+                self.warehouse.receive_deliveries(
+                    day = day, 
+                    deliveries = day_plan
+                )
 
             available_inventory = self.warehouse.get_available_orders(day)
+            # print(available_inventory)
             self.vrp_optimizer.update_inventory(available_inventory)
             final_state, action_history = self.vrp_optimizer.run()
             vrp_action_history.append({"day": day, "actions": action_history})
 
-            self.warehouse.update_after_delivery(final_state['delivered'], day)
+            # print(final_state['delivered'])
+
+            self.warehouse.update_after_delivery(
+                delivered_orders = final_state['delivered'], 
+                day = day
+            )
             # print(self.warehouse.remaining_capacity)
 
         return order_schedule, vrp_action_history

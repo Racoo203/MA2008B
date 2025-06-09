@@ -86,4 +86,3 @@ class Warehouse:
         self.current_inventory = []
         self.remaining_capacity = self.max_capacity
         self.history = {}
-

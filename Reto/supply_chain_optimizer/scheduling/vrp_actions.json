@@ -163,20 +163,27 @@
     "actions": [
       [
         "load",
-        2
-      ],
-      [
-        "deliver",
-        {
-          "polygon": 2,
-          "amount": 158
-        }
+        1
       ],
       [
         "deliver",
         {
           "polygon": 3,
-          "amount": 366
+          "amount": 524
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        1
+      ],
+      [
+        "deliver",
+        {
+          "polygon": 3,
+          "amount": 524
         }
       ],
       [
@@ -213,20 +220,6 @@
       [
         "load",
         1
-      ],
-      [
-        "deliver",
-        {
-          "polygon": 3,
-          "amount": 55
-        }
-      ],
-      [
-        "return"
-      ],
-      [
-        "load",
-        0
       ]
     ]
   },
@@ -235,33 +228,12 @@
     "actions": [
       [
         "load",
-        2
-      ],
-      [
-        "deliver",
-        {
-          "polygon": 3,
-          "amount": 410
-        }
-      ],
-      [
-        "deliver",
-        {
-          "polygon": 4,
-          "amount": 114
-        }
-      ],
-      [
-        "return"
-      ],
-      [
-        "load",
         1
       ],
       [
         "deliver",
         {
-          "polygon": 4,
+          "polygon": 3,
           "amount": 524
         }
       ],
@@ -275,12 +247,28 @@
       [
         "deliver",
         {
-          "polygon": 4,
-          "amount": 130
+          "polygon": 3,
+          "amount": 203
         }
       ],
       [
         "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
       ],
       [
         "load",
@@ -306,16 +294,19 @@
       [
         "deliver",
         {
+          "polygon": 3,
+          "amount": 61
+        }
+      ],
+      [
+        "deliver",
+        {
           "polygon": 4,
-          "amount": 374
+          "amount": 463
         }
       ],
       [
-        "deliver",
-        {
-          "polygon": 18,
-          "amount": 150
-        }
+        "return"
       ],
       [
         "load",
@@ -324,31 +315,28 @@
       [
         "deliver",
         {
-          "polygon": 18,
-          "amount": 524
+          "polygon": 4,
+          "amount": 177
         }
+      ],
+      [
+        "return"
       ],
       [
         "load",
-        1
-      ],
-      [
-        "deliver",
-        {
-          "polygon": 18,
-          "amount": 524
-        }
+        0
       ],
       [
         "load",
-        1
+        0
       ],
       [
-        "deliver",
-        {
-          "polygon": 18,
-          "amount": 407
-        }
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
       ],
       [
         "load",
@@ -371,31 +359,37 @@
         "deliver",
         {
           "polygon": 4,
-          "amount": 264
+          "amount": 199
         }
       ],
       [
         "deliver",
         {
           "polygon": 18,
-          "amount": 184
+          "amount": 325
         }
       ],
       [
         "load",
-        0
+        1
+      ],
+      [
+        "deliver",
+        {
+          "polygon": 18,
+          "amount": 524
+        }
       ],
       [
         "load",
-        0
+        1
       ],
       [
-        "load",
-        0
-      ],
-      [
-        "load",
-        0
+        "deliver",
+        {
+          "polygon": 18,
+          "amount": 266
+        }
       ],
       [
         "load",
@@ -440,7 +434,7 @@
         "deliver",
         {
           "polygon": 2,
-          "amount": 219
+          "amount": 295
         }
       ],
       [
@@ -477,13 +471,20 @@
     "actions": [
       [
         "load",
-        1
+        2
       ],
       [
         "deliver",
         {
           "polygon": 2,
-          "amount": 524
+          "amount": 141
+        }
+      ],
+      [
+        "deliver",
+        {
+          "polygon": 3,
+          "amount": 383
         }
       ],
       [
@@ -496,16 +497,12 @@
       [
         "deliver",
         {
-          "polygon": 2,
-          "amount": 28
+          "polygon": 3,
+          "amount": 78
         }
       ],
       [
         "return"
-      ],
-      [
-        "load",
-        0
       ],
       [
         "load",
@@ -540,18 +537,15 @@
         "deliver",
         {
           "polygon": 2,
-          "amount": 270
+          "amount": 502
         }
       ],
       [
         "deliver",
         {
-          "polygon": 4,
-          "amount": 254
+          "polygon": 18,
+          "amount": 22
         }
-      ],
-      [
-        "return"
       ],
       [
         "load",
@@ -560,26 +554,24 @@
       [
         "deliver",
         {
-          "polygon": 4,
+          "polygon": 18,
           "amount": 524
         }
       ],
       [
-        "return"
-      ],
-      [
         "load",
         1
       ],
       [
         "deliver",
         {
-          "polygon": 4,
-          "amount": 392
+          "polygon": 18,
+          "amount": 358
         }
       ],
       [
-        "return"
+        "load",
+        0
       ],
       [
         "load",
@@ -600,50 +592,47 @@
     "actions": [
       [
         "load",
-        3
-      ],
-      [
-        "deliver",
-        {
-          "polygon": 2,
-          "amount": 138
-        }
-      ],
-      [
-        "deliver",
-        {
-          "polygon": 4,
-          "amount": 76
-        }
-      ],
-      [
-        "deliver",
-        {
-          "polygon": 18,
-          "amount": 310
-        }
-      ],
-      [
-        "load",
         1
       ],
       [
         "deliver",
         {
-          "polygon": 18,
+          "polygon": 3,
           "amount": 524
         }
       ],
       [
+        "return"
+      ],
+      [
         "load",
         1
       ],
       [
         "deliver",
         {
-          "polygon": 18,
-          "amount": 493
+          "polygon": 3,
+          "amount": 114
         }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
       ],
       [
         "load",
@@ -669,15 +658,15 @@
       [
         "deliver",
         {
-          "polygon": 3,
-          "amount": 408
+          "polygon": 2,
+          "amount": 444
         }
       ],
       [
         "deliver",
         {
-          "polygon": 4,
-          "amount": 116
+          "polygon": 3,
+          "amount": 80
         }
       ],
       [
@@ -690,16 +679,12 @@
       [
         "deliver",
         {
-          "polygon": 4,
-          "amount": 213
+          "polygon": 3,
+          "amount": 7
         }
       ],
       [
         "return"
-      ],
-      [
-        "load",
-        0
       ],
       [
         "load",
@@ -728,45 +713,59 @@
     "actions": [
       [
         "load",
-        2
+        3
+      ],
+      [
+        "deliver",
+        {
+          "polygon": 2,
+          "amount": 432
+        }
+      ],
+      [
+        "deliver",
+        {
+          "polygon": 3,
+          "amount": 81
+        }
       ],
       [
         "deliver",
         {
           "polygon": 4,
-          "amount": 161
+          "amount": 11
         }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        1
       ],
       [
         "deliver",
         {
-          "polygon": 18,
-          "amount": 282
+          "polygon": 4,
+          "amount": 524
         }
       ],
       [
-        "load",
-        0
+        "return"
       ],
       [
         "load",
-        0
+        1
       ],
       [
-        "load",
-        0
+        "deliver",
+        {
+          "polygon": 4,
+          "amount": 168
+        }
       ],
       [
-        "load",
-        0
-      ],
-      [
-        "load",
-        0
-      ],
-      [
-        "load",
-        0
+        "return"
       ],
       [
         "load",
@@ -789,14 +788,14 @@
         "deliver",
         {
           "polygon": 2,
-          "amount": 401
+          "amount": 396
         }
       ],
       [
         "deliver",
         {
-          "polygon": 3,
-          "amount": 123
+          "polygon": 4,
+          "amount": 128
         }
       ],
       [
@@ -809,7 +808,7 @@
       [
         "deliver",
         {
-          "polygon": 3,
+          "polygon": 4,
           "amount": 524
         }
       ],
@@ -823,8 +822,8 @@
       [
         "deliver",
         {
-          "polygon": 3,
-          "amount": 80
+          "polygon": 4,
+          "amount": 81
         }
       ],
       [
@@ -849,13 +848,20 @@
     "actions": [
       [
         "load",
-        1
+        2
       ],
       [
         "deliver",
         {
           "polygon": 2,
-          "amount": 524
+          "amount": 406
+        }
+      ],
+      [
+        "deliver",
+        {
+          "polygon": 4,
+          "amount": 118
         }
       ],
       [
@@ -868,16 +874,12 @@
       [
         "deliver",
         {
-          "polygon": 2,
-          "amount": 379
+          "polygon": 4,
+          "amount": 27
         }
       ],
       [
         "return"
-      ],
-      [
-        "load",
-        0
       ],
       [
         "load",
@@ -906,24 +908,28 @@
     "actions": [
       [
         "load",
-        2
+        3
       ],
       [
         "deliver",
         {
           "polygon": 2,
-          "amount": 383
+          "amount": 248
         }
       ],
       [
         "deliver",
         {
-          "polygon": 3,
-          "amount": 141
+          "polygon": 4,
+          "amount": 127
         }
       ],
       [
-        "return"
+        "deliver",
+        {
+          "polygon": 18,
+          "amount": 149
+        }
       ],
       [
         "load",
@@ -932,26 +938,20 @@
       [
         "deliver",
         {
-          "polygon": 3,
+          "polygon": 18,
           "amount": 524
         }
       ],
       [
-        "return"
-      ],
-      [
         "load",
         1
       ],
       [
         "deliver",
         {
-          "polygon": 3,
-          "amount": 508
+          "polygon": 18,
+          "amount": 304
         }
-      ],
-      [
-        "return"
       ],
       [
         "load",
@@ -972,20 +972,13 @@
     "actions": [
       [
         "load",
-        2
+        1
       ],
       [
         "deliver",
         {
-          "polygon": 3,
-          "amount": 307
-        }
-      ],
-      [
-        "deliver",
-        {
-          "polygon": 4,
-          "amount": 217
+          "polygon": 2,
+          "amount": 524
         }
       ],
       [
@@ -998,8 +991,8 @@
       [
         "deliver",
         {
-          "polygon": 4,
-          "amount": 125
+          "polygon": 2,
+          "amount": 242
         }
       ],
       [
@@ -1042,14 +1035,14 @@
         "deliver",
         {
           "polygon": 2,
-          "amount": 270
+          "amount": 321
         }
       ],
       [
         "deliver",
         {
-          "polygon": 4,
-          "amount": 254
+          "polygon": 3,
+          "amount": 203
         }
       ],
       [
@@ -1062,8 +1055,8 @@
       [
         "deliver",
         {
-          "polygon": 4,
-          "amount": 267
+          "polygon": 3,
+          "amount": 248
         }
       ],
       [
@@ -1101,15 +1094,15 @@
       [
         "deliver",
         {
-          "polygon": 3,
-          "amount": 269
+          "polygon": 2,
+          "amount": 241
         }
       ],
       [
         "deliver",
         {
           "polygon": 4,
-          "amount": 255
+          "amount": 283
         }
       ],
       [
@@ -1123,7 +1116,7 @@
         "deliver",
         {
           "polygon": 4,
-          "amount": 17
+          "amount": 524
         }
       ],
       [
@@ -1131,15 +1124,17 @@
       ],
       [
         "load",
-        0
+        1
       ],
       [
-        "load",
-        0
+        "deliver",
+        {
+          "polygon": 4,
+          "amount": 309
+        }
       ],
       [
-        "load",
-        0
+        "return"
       ],
       [
         "load",
@@ -1160,13 +1155,20 @@
     "actions": [
       [
         "load",
-        1
+        2
       ],
       [
         "deliver",
         {
           "polygon": 2,
-          "amount": 524
+          "amount": 7
+        }
+      ],
+      [
+        "deliver",
+        {
+          "polygon": 4,
+          "amount": 517
         }
       ],
       [
@@ -1179,16 +1181,12 @@
       [
         "deliver",
         {
-          "polygon": 2,
-          "amount": 385
+          "polygon": 4,
+          "amount": 70
         }
       ],
       [
         "return"
-      ],
-      [
-        "load",
-        0
       ],
       [
         "load",
@@ -1223,14 +1221,14 @@
         "deliver",
         {
           "polygon": 3,
-          "amount": 265
+          "amount": 312
         }
       ],
       [
         "deliver",
         {
           "polygon": 4,
-          "amount": 259
+          "amount": 212
         }
       ],
       [
@@ -1244,7 +1242,7 @@
         "deliver",
         {
           "polygon": 4,
-          "amount": 451
+          "amount": 95
         }
       ],
       [
@@ -1281,20 +1279,13 @@
     "actions": [
       [
         "load",
-        2
-      ],
-      [
-        "deliver",
-        {
-          "polygon": 4,
-          "amount": 134
-        }
+        1
       ],
       [
         "deliver",
         {
           "polygon": 18,
-          "amount": 390
+          "amount": 524
         }
       ],
       [
@@ -1305,8 +1296,72 @@
         "deliver",
         {
           "polygon": 18,
-          "amount": 116
+          "amount": 304
         }
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 23,
+    "actions": [
+      [
+        "load",
+        1
+      ],
+      [
+        "deliver",
+        {
+          "polygon": 18,
+          "amount": 164
+        }
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
       ],
       [
         "load",

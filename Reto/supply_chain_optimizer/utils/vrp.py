@@ -53,7 +53,7 @@ class VRP:
             'delivered': []
         }
         self.action_history = []
-        self.remaining = self._get_initial_remaining()
+        self.remaining = self.inventory_df
 
     def update_inventory(self, new_inventory_df: pd.DataFrame):
         """
@@ -61,9 +61,6 @@ class VRP:
         """
         self.inventory_df = new_inventory_df.copy()
         self.reset()
-
-    def _get_initial_remaining(self) -> pd.DataFrame:
-        return self.inventory_df.groupby('polygon').agg({'amount': 'sum'}).reset_index()
 
     def get_state(self) -> dict:
         return self.current_state.copy()

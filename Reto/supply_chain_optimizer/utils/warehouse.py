@@ -1,5 +1,6 @@
 import pandas as pd
-from typing import List, Tuple
+from typing import List, Tuple, Dict
+import copy
 
 class Warehouse:
     """
@@ -36,15 +37,17 @@ class Warehouse:
     def get_available_orders(self, day: int) -> pd.DataFrame:
         eligible_days = [d for d in self.daily_inventory if d <= day - self.min_storage_days]
         if not eligible_days:
-            return pd.DataFrame(columns=['polygon', 'amount'])
+            return pd.DataFrame(columns=['day', 'polygon', 'specie', 'amount'])
         records = []
         for d in eligible_days:
-            records.extend(self.daily_inventory[d])
+            for entry in self.daily_inventory[d]:
+                record = entry.copy()
+                record['day'] = d
+                records.append(record)
         if not records:
-            return pd.DataFrame(columns=['polygon', 'amount'])
+            return pd.DataFrame(columns=['day', 'polygon', 'specie', 'amount'])
         df = pd.DataFrame(records)
-        grouped = df.groupby('polygon').agg({'amount': 'sum'}).reset_index()
-        return grouped
+        return df[['day', 'polygon', 'specie', 'amount']]
 
     def update_after_delivery(self, delivered_orders: List[dict], day: int):
         eligible_days = [d for d in self.daily_inventory if d <= day - self.min_storage_days]
@@ -77,8 +80,7 @@ class Warehouse:
             if current_day - day_key > max_days:
                 overstayed.extend(deliveries)
         return overstayed
-
-
+    
     def is_empty(self):
         return self.max_capacity == self.remaining_capacity
     

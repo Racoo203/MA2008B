@@ -6,6 +6,7 @@ import logging
 from typing import List, Tuple, Any, Dict, Optional
 from tqdm import tqdm
 import json
+import copy
 
 from utils.vrp import VRP
 from utils.warehouse import Warehouse
@@ -63,7 +64,6 @@ class SASCOpt:
     def generate_schedule(
         self,
         demands_df: pd.DataFrame,
-        start_day: int = 1,
         initial_remaining: Optional[pd.DataFrame] = None
     ) -> Tuple[List[Tuple[int, Any, Any, Any, float]], List[Dict]]:
         """
@@ -72,8 +72,9 @@ class SASCOpt:
         """
         remaining = initial_remaining if initial_remaining is not None else demands_df.copy()
         order_schedule = []
+        warehouse_schedule = []
         vrp_action_history = []
-        day = start_day - 1
+        day = 0
 
         while (remaining['demand'].sum() > 0) or not self.warehouse.is_empty():
             day += 1
@@ -109,35 +110,31 @@ class SASCOpt:
                     deliveries = day_plan
                 )
 
+            warehouse_schedule.append({"day": day, "actions": copy.deepcopy(self.warehouse.daily_inventory)})
+
             available_inventory = self.warehouse.get_available_orders(day)
-            # print(available_inventory)
+
             self.vrp_optimizer.update_inventory(available_inventory)
             final_state, action_history = self.vrp_optimizer.run()
             vrp_action_history.append({"day": day, "actions": action_history})
-
-            # print(final_state['delivered'])
 
             self.warehouse.update_after_delivery(
                 delivered_orders = final_state['delivered'], 
                 day = day
             )
-            # print(self.warehouse.remaining_capacity)
 
-        return order_schedule, vrp_action_history
+            # print(warehouse_schedule)
 
+        return order_schedule, warehouse_schedule, vrp_action_history
 
-    def initial_solution(self) -> Tuple[List[Tuple[int, Any, Any, Any, float]], List[Dict]]:
-        return self.generate_schedule(demands_df=self.demands.copy(), start_day=1)
-
-
-    def scheduling_cost(self, schedule: List[Tuple[int, Any, Any, Any, float]]) -> float:
+    def scheduling_cost(self, order_schedule: List[Tuple[int, Any, Any, Any, float]]) -> float:
         cost = 0
-        horizon_days = max(entry[0] for entry in schedule)
+        horizon_days = max(entry[0] for entry in order_schedule)
         for day in range(1, horizon_days + 1):
-            day_orders = [entry for entry in schedule if entry[0] == day]
+            day_orders = [entry for entry in order_schedule if entry[0] == day]
             day_suppliers = set()
 
-            for (_, polygon, specie, supplier, amount) in day_orders:
+            for (_, _, specie, supplier, amount) in day_orders:
                 price_row = self.prices_df[
                     (self.prices_df['specie'] == specie) &
                     (self.prices_df['supplier'] == supplier)
@@ -149,26 +146,21 @@ class SASCOpt:
             cost += self.transport_cost * len(day_suppliers)
 
         return cost
-
-    def fitness(self, schedule: List[Tuple[int, Any, Any, Any, float]]) -> float:
+    
+    def fitness(
+        self, 
+        schedule: List[Tuple[int, Any, Any, Any, float]],
+    ) -> float:
         cost = 0
         horizon_days = max(entry[0] for entry in schedule)
         utilization_penalty = 0
-        overstay_penalty = 0
-        max_warehouse_days = 7
-
-        self.warehouse.reset()
-        self.vrp_optimizer.reset()
 
         for day in range(1, horizon_days + 1):
             day_orders = [entry for entry in schedule if entry[0] == day]
             truck_load = 0
             day_suppliers = set()
 
-            # Simulate receiving
-            self.warehouse.receive_deliveries(day, day_orders)
-
-            for (_, polygon, specie, supplier, amount) in day_orders:
+            for (_, _, specie, supplier, amount) in day_orders:
                 price_row = self.prices_df[
                     (self.prices_df['specie'] == specie) & 
                     (self.prices_df['supplier'] == supplier)
@@ -185,76 +177,65 @@ class SASCOpt:
             if utilization < self.utilization_threshold:
                 utilization_penalty += (1 - utilization) * self.utilization_penalty_scale
 
-            # Overstay penalty
-            overstayed = self.warehouse.get_overstayed_items(day, max_warehouse_days)
-            if overstayed:
-                # total_overstayed = sum(float(item['amount']) for item in overstayed)
-                # overstay_penalty += total_overstayed * 1_000_000_000  # or another large penalty scale
-                overstay_penalty += 1_000_000_000
-
-            # Simulate delivery
-            available_inventory = self.warehouse.get_available_orders(day)
-            self.vrp_optimizer.update_inventory(available_inventory)
-            final_state, _ = self.vrp_optimizer.run()
-            self.warehouse.update_after_delivery(final_state['delivered'], day)
-
-        return cost + utilization_penalty + overstay_penalty
+        return cost + utilization_penalty
 
 
-    def neighbor(self, schedule: List[Tuple[int, Any, Any, Any, float]]) -> List[Tuple[int, Any, Any, Any, float]]:
-        max_attempts = 5
-        for attempt in range(max_attempts):
-            if not schedule:
-                return schedule
+    def get_supply_chain_utilization(
+        self, 
+        schedule: List[Tuple[int, Any, Any, Any, float]],
+    ):
+        horizon_days = max(entry[0] for entry in schedule)
+        utilization_rates = []
 
-            days = sorted(set(order[0] for order in schedule))
-            if len(days) <= 1:
-                return schedule
+        for day in range(1, horizon_days + 1):
+            day_orders = [entry for entry in schedule if entry[0] == day]
+            truck_load = 0
 
-            cutoff_day = random.choice(days[:-1])
+            for (_, _, specie, supplier, amount) in day_orders:
+                truck_load += amount
+            
+            # Utilization penalty
+            utilization = truck_load / self.max_load
+            utilization_rates.append(utilization)
 
-            preserved = [order for order in schedule if order[0] < cutoff_day]
-            to_reschedule = [order for order in schedule if order[0] >= cutoff_day]
+        return utilization_rates
+    
+    def get_warehouse_utilization(
+        self,
+        schedule
+    ) -> float:
+        
+        utilization = []
+        capacity = self.warehouse.max_capacity
 
-            remaining_demand = pd.DataFrame(to_reschedule, columns=['day', 'polygon', 'specie', 'supplier', 'amount']) \
-                .groupby(['polygon', 'specie'])['amount'].sum().reset_index()
-            remaining_demand.rename(columns={'amount': 'demand'}, inplace=True)
+        for elem in schedule:
+            amt = 0
+            actions = elem['actions']
+            for _, inventory in actions.items():
+                for item in inventory:
+                    amt += item['amount']
 
-            self.warehouse.reset()
-            self.vrp_optimizer.reset()
+            utilization.append(amt / capacity)
 
-            regenerated, _ = self.generate_schedule(
-                demands_df=remaining_demand,
-                start_day=cutoff_day,
-                initial_remaining=remaining_demand.copy()
-            )
+        return utilization
 
-            trial_solution = preserved + regenerated
+    def get_vrp_utilizations(
+        self,
+        schedule
+    ) -> float:
+        
+        utilization = []
 
-            # Check for overstay
-            self.warehouse.reset()
-            self.vrp_optimizer.reset()
-            days_in_schedule = max(entry[0] for entry in trial_solution)
-            feasible = True
-            for day in range(1, days_in_schedule + 1):
-                daily = [entry for entry in trial_solution if entry[0] == day]
-                self.warehouse.receive_deliveries(day, daily)
-                overstayed = self.warehouse.get_overstayed_items(day, max_days=7)
-                if overstayed:
-                    feasible = False
-                    break
+        for elem in schedule:
+            amt_delivered = 0
+            actions = elem['actions']
+            for action in actions:
+                if action[0] == 'deliver':
+                    amt_delivered += action[1]['amount']
 
-                available_inventory = self.warehouse.get_available_orders(day)
-                self.vrp_optimizer.update_inventory(available_inventory)
-                final_state, _ = self.vrp_optimizer.run()
-                self.warehouse.update_after_delivery(final_state['delivered'], day)
+            utilization.append(amt_delivered)
 
-            if feasible:
-                return trial_solution
-
-        # fallback: return current schedule (i.e., no change)
-        return schedule
-
+        return utilization          
 
     @staticmethod
     def convert_to_serializable(obj):
@@ -267,35 +248,66 @@ class SASCOpt:
         else:
             raise TypeError(f"Object of type {type(obj)} is not JSON serializable")
 
+    def run(self) -> Dict[str, Any]:
+    # Solución inicial
+        init_order_schedule, init_warehouse_schedule, init_vrp_schedule = self.generate_schedule(
+            demands_df=self.demand_df,
+        )
+        # print(init_warehouse_schedule)
+        current_fitness = self.fitness(init_order_schedule)
 
-    def run(self) -> Tuple[List[Tuple[int, Any, Any, Any, float]], float, str, str]:
-        order_schedule, vrp_actions = self.initial_solution()
-        current_solution = order_schedule
-        current_cost = self.fitness(current_solution)
-        best_solution = current_solution
-        best_cost = current_cost
+        best_order_schedule = init_order_schedule
+        best_warehouse_schedule = init_warehouse_schedule
+        best_vrp_schedule = init_vrp_schedule
+        best_fitness = current_fitness
+
         temp = self.initial_temp
 
         for i in tqdm(range(self.iterations)):
-            new_solution = self.neighbor(current_solution)
-            new_cost = self.fitness(new_solution)
-            accept = new_cost < current_cost or random.random() < np.exp((current_cost - new_cost) / temp)
-            if accept:
-                current_solution = new_solution
-                current_cost = new_cost
-                if new_cost < best_cost:
-                    best_solution = new_solution
-                    best_cost = new_cost
-            temp *= self.cooling_rate
-            logging.info(f"Iteration {i+1}: Cost = {current_cost:.2f}, Temp = {temp:.2f}")
 
+            new_order_schedule, new_warehouse_schedule, new_vrp_schedule = self.generate_schedule(
+                demands_df=self.demand_df,
+            )
+
+            new_fitness = self.fitness(new_order_schedule)
+
+            c1 = (new_fitness < best_fitness)
+            c2 = (np.log(random.random()) < (best_fitness - new_fitness) / temp)
+            # print((best_fitness - new_fitness) / temp)
+            accept_solution = c1 or c2
+            
+            if accept_solution:
+                best_order_schedule = new_order_schedule
+                best_warehouse_schedule = new_warehouse_schedule
+                best_vrp_schedule = new_vrp_schedule
+                best_fitness = new_fitness
+
+            temp *= self.cooling_rate
+            logging.info(f"Iteration {i+1}: Fitness = {new_fitness:.2f}, Temp = {temp:.2f}")
+
+        best_cost = self.scheduling_cost(best_order_schedule)
+        best_supply_chain_utilization = self.get_supply_chain_utilization(best_order_schedule)
+        best_warehouse_utilization = self.get_warehouse_utilization(best_warehouse_schedule)
+        best_vrp_utilization = self.get_vrp_utilizations(best_vrp_schedule)
+        
         logging.info(f"Best solution found with cost: {best_cost:.2f}")
 
-        supply_chain_json = json.dumps([
-            {"day": day, "polygon": polygon, "specie": specie, "supplier": supplier, "amount": amount}
-            for day, polygon, specie, supplier, amount in best_solution
-        ], indent=2, default=self.convert_to_serializable)
+        with open("./scheduling/order_schedule.json", "w") as f:
+            json.dump(best_order_schedule, f, indent=2, default=SASCOpt.convert_to_serializable)
 
-        vrp_actions_json = json.dumps(vrp_actions, indent=2, default=self.convert_to_serializable)
+        with open("./scheduling/warehouse_schedule.json", "w") as f:
+            json.dump(best_warehouse_schedule, f, indent=2, default=SASCOpt.convert_to_serializable)
 
-        return best_solution, best_cost, supply_chain_json, vrp_actions_json
+        with open("./scheduling/vrp_schedule.json", "w") as f:
+            json.dump(best_vrp_schedule, f, indent=2, default=SASCOpt.convert_to_serializable)
+
+        return {
+            "order_schedule": best_order_schedule,
+            "warehouse_schedule": best_warehouse_schedule,
+            "vrp_schedule": best_vrp_schedule,
+            "fitness_cost": best_fitness,
+            "real_cost": best_cost,
+            'supply_chain_utilization': best_supply_chain_utilization,
+            'warehouse_utilization': best_warehouse_utilization,
+            'vrp_utilization': best_vrp_utilization
+        }

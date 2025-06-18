@@ -1,0 +1,3223 @@
+[
+  {
+    "day": 1,
+    "actions": [
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 2,
+    "actions": [
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 3,
+    "actions": [
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 4,
+    "actions": [
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 1,
+          "specie": "Opuntia engelmani",
+          "amount": 162
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 17,
+          "specie": "Agave scabra",
+          "amount": 201
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 17,
+          "specie": "Opuntia engelmani",
+          "amount": 161
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 17,
+          "specie": "Opuntia engelmani",
+          "amount": 22
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 16,
+          "specie": "Agave salmiana",
+          "amount": 502
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 16,
+          "specie": "Agave salmiana",
+          "amount": 382
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 24,
+          "specie": "Agave lechuguilla",
+          "amount": 142
+        }
+      ],
+      [
+        "return"
+      ]
+    ]
+  },
+  {
+    "day": 5,
+    "actions": [
+      [
+        "load",
+        4
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 24,
+          "specie": "Agave lechuguilla",
+          "amount": 44
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 20,
+          "specie": "Agave lechuguilla",
+          "amount": 45
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 24,
+          "specie": "Opuntia robusta",
+          "amount": 327
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 23,
+          "specie": "Opuntia streptacanta",
+          "amount": 108
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 23,
+          "specie": "Opuntia streptacanta",
+          "amount": 174
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 1,
+          "specie": "Opuntia robusta",
+          "amount": 313
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 24,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 37
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        2
+      ]
+    ]
+  },
+  {
+    "day": 6,
+    "actions": [
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 24,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 183
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 24,
+          "specie": "Agave salmiana",
+          "amount": 341
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        1
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 24,
+          "specie": "Agave salmiana",
+          "amount": 524
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 24,
+          "specie": "Agave salmiana",
+          "amount": 19
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 25,
+          "specie": "Agave lechuguilla",
+          "amount": 166
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 1,
+          "polygon": 23,
+          "specie": "Opuntia engelmani",
+          "amount": 147
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 7,
+    "actions": [
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 8,
+    "actions": [
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 5,
+          "polygon": 17,
+          "specie": "Prosopis laevigata",
+          "amount": 421
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 5,
+          "polygon": 19,
+          "specie": "Agave striata",
+          "amount": 103
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 5,
+          "polygon": 19,
+          "specie": "Agave striata",
+          "amount": 59
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 5,
+          "polygon": 5,
+          "specie": "Opuntia robusta",
+          "amount": 438
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 5,
+          "polygon": 25,
+          "specie": "Opuntia streptacanta",
+          "amount": 27
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 5,
+          "polygon": 25,
+          "specie": "Opuntia streptacanta",
+          "amount": 230
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 5,
+          "polygon": 4,
+          "specie": "Opuntia streptacanta",
+          "amount": 294
+        }
+      ],
+      [
+        "return"
+      ]
+    ]
+  },
+  {
+    "day": 9,
+    "actions": [
+      [
+        "load",
+        4
+      ],
+      [
+        "deliver",
+        {
+          "day": 6,
+          "polygon": 16,
+          "specie": "Agave striata",
+          "amount": 186
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 6,
+          "polygon": 16,
+          "specie": "Agave scabra",
+          "amount": 186
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 6,
+          "polygon": 20,
+          "specie": "Opuntia streptacanta",
+          "amount": 70
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 6,
+          "polygon": 4,
+          "specie": "Opuntia streptacanta",
+          "amount": 82
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        4
+      ],
+      [
+        "deliver",
+        {
+          "day": 6,
+          "polygon": 4,
+          "specie": "Opuntia streptacanta",
+          "amount": 32
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 6,
+          "polygon": 17,
+          "specie": "Opuntia robusta",
+          "amount": 354
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 6,
+          "polygon": 16,
+          "specie": "Yucca filifera",
+          "amount": 118
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 6,
+          "polygon": 20,
+          "specie": "Agave scabra",
+          "amount": 20
+        }
+      ],
+      [
+        "return"
+      ]
+    ]
+  },
+  {
+    "day": 10,
+    "actions": [
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 7,
+          "polygon": 23,
+          "specie": "Prosopis laevigata",
+          "amount": 381
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 7,
+          "polygon": 23,
+          "specie": "Agave striata",
+          "amount": 143
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 7,
+          "polygon": 23,
+          "specie": "Agave striata",
+          "amount": 39
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 7,
+          "polygon": 25,
+          "specie": "Agave salmiana",
+          "amount": 485
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 7,
+          "polygon": 25,
+          "specie": "Agave salmiana",
+          "amount": 307
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 7,
+          "polygon": 1,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 25
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 11,
+    "actions": [
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 12,
+    "actions": [
+      [
+        "load",
+        4
+      ],
+      [
+        "deliver",
+        {
+          "day": 9,
+          "polygon": 25,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 197
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 9,
+          "polygon": 5,
+          "specie": "Yucca filifera",
+          "amount": 159
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 9,
+          "polygon": 19,
+          "specie": "Agave scabra",
+          "amount": 162
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 9,
+          "polygon": 18,
+          "specie": "Opuntia engelmani",
+          "amount": 6
+        }
+      ],
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 9,
+          "polygon": 18,
+          "specie": "Opuntia engelmani",
+          "amount": 207
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 9,
+          "polygon": 3,
+          "specie": "Agave salmiana",
+          "amount": 317
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        1
+      ],
+      [
+        "deliver",
+        {
+          "day": 9,
+          "polygon": 3,
+          "specie": "Agave salmiana",
+          "amount": 524
+        }
+      ],
+      [
+        "return"
+      ]
+    ]
+  },
+  {
+    "day": 13,
+    "actions": [
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 10,
+          "polygon": 26,
+          "specie": "Opuntia engelmani",
+          "amount": 142
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 10,
+          "polygon": 5,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 294
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 10,
+          "polygon": 5,
+          "specie": "Agave scabra",
+          "amount": 88
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 10,
+          "polygon": 5,
+          "specie": "Agave scabra",
+          "amount": 161
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 10,
+          "polygon": 17,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 238
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 10,
+          "polygon": 23,
+          "specie": "Agave lechuguilla",
+          "amount": 125
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 14,
+    "actions": [
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 11,
+          "polygon": 4,
+          "specie": "Opuntia engelmani",
+          "amount": 240
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 11,
+          "polygon": 25,
+          "specie": "Agave striata",
+          "amount": 166
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 11,
+          "polygon": 19,
+          "specie": "Opuntia engelmani",
+          "amount": 118
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 11,
+          "polygon": 19,
+          "specie": "Opuntia engelmani",
+          "amount": 29
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 11,
+          "polygon": 24,
+          "specie": "Agave scabra",
+          "amount": 186
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 11,
+          "polygon": 19,
+          "specie": "Agave salmiana",
+          "amount": 309
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        1
+      ],
+      [
+        "deliver",
+        {
+          "day": 11,
+          "polygon": 19,
+          "specie": "Agave salmiana",
+          "amount": 332
+        }
+      ],
+      [
+        "return"
+      ]
+    ]
+  },
+  {
+    "day": 15,
+    "actions": [
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 16,
+    "actions": [
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 13,
+          "polygon": 3,
+          "specie": "Opuntia robusta",
+          "amount": 463
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 13,
+          "polygon": 4,
+          "specie": "Prosopis laevigata",
+          "amount": 61
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 13,
+          "polygon": 4,
+          "specie": "Prosopis laevigata",
+          "amount": 490
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 13,
+          "polygon": 19,
+          "specie": "Opuntia robusta",
+          "amount": 34
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 13,
+          "polygon": 19,
+          "specie": "Opuntia robusta",
+          "amount": 251
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 13,
+          "polygon": 25,
+          "specie": "Opuntia engelmani",
+          "amount": 151
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 13,
+          "polygon": 24,
+          "specie": "Opuntia streptacanta",
+          "amount": 122
+        }
+      ],
+      [
+        "return"
+      ]
+    ]
+  },
+  {
+    "day": 17,
+    "actions": [
+      [
+        "load",
+        4
+      ],
+      [
+        "deliver",
+        {
+          "day": 14,
+          "polygon": 24,
+          "specie": "Opuntia streptacanta",
+          "amount": 165
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 14,
+          "polygon": 23,
+          "specie": "Agave lechuguilla",
+          "amount": 57
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 14,
+          "polygon": 1,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 185
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 14,
+          "polygon": 18,
+          "specie": "Prosopis laevigata",
+          "amount": 117
+        }
+      ],
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 14,
+          "polygon": 18,
+          "specie": "Prosopis laevigata",
+          "amount": 373
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 14,
+          "polygon": 18,
+          "specie": "Opuntia robusta",
+          "amount": 151
+        }
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 18,
+    "actions": [
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 15,
+          "polygon": 19,
+          "specie": "Prosopis laevigata",
+          "amount": 339
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 15,
+          "polygon": 4,
+          "specie": "Agave scabra",
+          "amount": 185
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 15,
+          "polygon": 4,
+          "specie": "Agave scabra",
+          "amount": 79
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 15,
+          "polygon": 25,
+          "specie": "Prosopis laevigata",
+          "amount": 348
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 15,
+          "polygon": 26,
+          "specie": "Agave striata",
+          "amount": 97
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 15,
+          "polygon": 26,
+          "specie": "Agave striata",
+          "amount": 60
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 15,
+          "polygon": 26,
+          "specie": "Opuntia robusta",
+          "amount": 272
+        }
+      ],
+      [
+        "return"
+      ]
+    ]
+  },
+  {
+    "day": 19,
+    "actions": [
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 20,
+    "actions": [
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 17,
+          "polygon": 3,
+          "specie": "Agave scabra",
+          "amount": 264
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 17,
+          "polygon": 26,
+          "specie": "Prosopis laevigata",
+          "amount": 260
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 17,
+          "polygon": 26,
+          "specie": "Prosopis laevigata",
+          "amount": 67
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 17,
+          "polygon": 16,
+          "specie": "Opuntia robusta",
+          "amount": 327
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 17,
+          "polygon": 23,
+          "specie": "Agave salmiana",
+          "amount": 130
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        1
+      ],
+      [
+        "deliver",
+        {
+          "day": 17,
+          "polygon": 23,
+          "specie": "Agave salmiana",
+          "amount": 524
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 21,
+    "actions": [
+      [
+        "load",
+        4
+      ],
+      [
+        "deliver",
+        {
+          "day": 18,
+          "polygon": 17,
+          "specie": "Yucca filifera",
+          "amount": 128
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 18,
+          "polygon": 25,
+          "specie": "Yucca filifera",
+          "amount": 106
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 18,
+          "polygon": 16,
+          "specie": "Opuntia engelmani",
+          "amount": 169
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 18,
+          "polygon": 4,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 121
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        4
+      ],
+      [
+        "deliver",
+        {
+          "day": 18,
+          "polygon": 4,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 191
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 18,
+          "polygon": 20,
+          "specie": "Prosopis laevigata",
+          "amount": 95
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 18,
+          "polygon": 18,
+          "specie": "Agave scabra",
+          "amount": 234
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 18,
+          "polygon": 5,
+          "specie": "Opuntia streptacanta",
+          "amount": 4
+        }
+      ],
+      [
+        "return"
+      ]
+    ]
+  },
+  {
+    "day": 22,
+    "actions": [
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 19,
+          "polygon": 3,
+          "specie": "Yucca filifera",
+          "amount": 168
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 19,
+          "polygon": 16,
+          "specie": "Prosopis laevigata",
+          "amount": 356
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        5
+      ],
+      [
+        "deliver",
+        {
+          "day": 19,
+          "polygon": 16,
+          "specie": "Prosopis laevigata",
+          "amount": 33
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 19,
+          "polygon": 5,
+          "specie": "Agave lechuguilla",
+          "amount": 249
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 19,
+          "polygon": 1,
+          "specie": "Agave striata",
+          "amount": 178
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 19,
+          "polygon": 20,
+          "specie": "Yucca filifera",
+          "amount": 29
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 19,
+          "polygon": 26,
+          "specie": "Agave lechuguilla",
+          "amount": 35
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        2
+      ]
+    ]
+  },
+  {
+    "day": 23,
+    "actions": [
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 19,
+          "polygon": 26,
+          "specie": "Agave lechuguilla",
+          "amount": 122
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 19,
+          "polygon": 3,
+          "specie": "Agave striata",
+          "amount": 210
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 24,
+    "actions": [
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 21,
+          "polygon": 1,
+          "specie": "Agave scabra",
+          "amount": 178
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 21,
+          "polygon": 23,
+          "specie": "Agave scabra",
+          "amount": 182
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 21,
+          "polygon": 4,
+          "specie": "Agave salmiana",
+          "amount": 164
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        1
+      ],
+      [
+        "deliver",
+        {
+          "day": 21,
+          "polygon": 4,
+          "specie": "Agave salmiana",
+          "amount": 524
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        1
+      ],
+      [
+        "deliver",
+        {
+          "day": 21,
+          "polygon": 4,
+          "specie": "Agave salmiana",
+          "amount": 524
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 25,
+    "actions": [
+      [
+        "load",
+        5
+      ],
+      [
+        "deliver",
+        {
+          "day": 22,
+          "polygon": 24,
+          "specie": "Yucca filifera",
+          "amount": 118
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 22,
+          "polygon": 20,
+          "specie": "Opuntia engelmani",
+          "amount": 41
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 22,
+          "polygon": 18,
+          "specie": "Agave lechuguilla",
+          "amount": 234
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 22,
+          "polygon": 20,
+          "specie": "Agave scabra",
+          "amount": 25
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 22,
+          "polygon": 23,
+          "specie": "Yucca filifera",
+          "amount": 106
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 22,
+          "polygon": 23,
+          "specie": "Yucca filifera",
+          "amount": 10
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 22,
+          "polygon": 16,
+          "specie": "Opuntia streptacanta",
+          "amount": 287
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 22,
+          "polygon": 1,
+          "specie": "Agave salmiana",
+          "amount": 227
+        }
+      ],
+      [
+        "return"
+      ]
+    ]
+  },
+  {
+    "day": 26,
+    "actions": [
+      [
+        "load",
+        5
+      ],
+      [
+        "deliver",
+        {
+          "day": 23,
+          "polygon": 26,
+          "specie": "Opuntia robusta",
+          "amount": 3
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 23,
+          "polygon": 3,
+          "specie": "Agave striata",
+          "amount": 54
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 23,
+          "polygon": 1,
+          "specie": "Agave lechuguilla",
+          "amount": 178
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 23,
+          "polygon": 5,
+          "specie": "Opuntia engelmani",
+          "amount": 227
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 23,
+          "polygon": 25,
+          "specie": "Opuntia robusta",
+          "amount": 62
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 23,
+          "polygon": 25,
+          "specie": "Opuntia robusta",
+          "amount": 231
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 23,
+          "polygon": 4,
+          "specie": "Agave striata",
+          "amount": 264
+        }
+      ],
+      [
+        "return"
+      ]
+    ]
+  },
+  {
+    "day": 27,
+    "actions": [
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 23,
+          "polygon": 17,
+          "specie": "Agave striata",
+          "amount": 29
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 24,
+          "polygon": 24,
+          "specie": "Agave striata",
+          "amount": 186
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 24,
+          "polygon": 1,
+          "specie": "Prosopis laevigata",
+          "amount": 146
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 28,
+    "actions": [
+      [
+        "load",
+        1
+      ],
+      [
+        "deliver",
+        {
+          "day": 25,
+          "polygon": 1,
+          "specie": "Agave salmiana",
+          "amount": 524
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 25,
+          "polygon": 1,
+          "specie": "Agave salmiana",
+          "amount": 96
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 25,
+          "polygon": 26,
+          "specie": "Yucca filifera",
+          "amount": 100
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 25,
+          "polygon": 18,
+          "specie": "Agave salmiana",
+          "amount": 328
+        }
+      ],
+      [
+        "load",
+        1
+      ],
+      [
+        "deliver",
+        {
+          "day": 25,
+          "polygon": 18,
+          "specie": "Agave salmiana",
+          "amount": 524
+        }
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 29,
+    "actions": [
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 26,
+          "polygon": 19,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 192
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 26,
+          "polygon": 5,
+          "specie": "Opuntia streptacanta",
+          "amount": 332
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 26,
+          "polygon": 5,
+          "specie": "Opuntia streptacanta",
+          "amount": 49
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 26,
+          "polygon": 23,
+          "specie": "Opuntia robusta",
+          "amount": 320
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 26,
+          "polygon": 19,
+          "specie": "Opuntia streptacanta",
+          "amount": 155
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 30,
+    "actions": [
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 27,
+          "polygon": 24,
+          "specie": "Prosopis laevigata",
+          "amount": 389
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 27,
+          "polygon": 5,
+          "specie": "Prosopis laevigata",
+          "amount": 135
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        4
+      ],
+      [
+        "deliver",
+        {
+          "day": 27,
+          "polygon": 5,
+          "specie": "Prosopis laevigata",
+          "amount": 386
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 27,
+          "polygon": 23,
+          "specie": "Opuntia engelmani",
+          "amount": 19
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 27,
+          "polygon": 20,
+          "specie": "Opuntia robusta",
+          "amount": 80
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 27,
+          "polygon": 24,
+          "specie": "Opuntia engelmani",
+          "amount": 10
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 31,
+    "actions": [
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 28,
+          "polygon": 16,
+          "specie": "Agave lechuguilla",
+          "amount": 186
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 28,
+          "polygon": 19,
+          "specie": "Agave salmiana",
+          "amount": 131
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 28,
+          "polygon": 17,
+          "specie": "Agave striata",
+          "amount": 44
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 32,
+    "actions": [
+      [
+        "load",
+        1
+      ],
+      [
+        "deliver",
+        {
+          "day": 29,
+          "polygon": 3,
+          "specie": "Prosopis laevigata",
+          "amount": 524
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 29,
+          "polygon": 3,
+          "specie": "Prosopis laevigata",
+          "amount": 27
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 29,
+          "polygon": 18,
+          "specie": "Agave salmiana",
+          "amount": 263
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 29,
+          "polygon": 17,
+          "specie": "Agave salmiana",
+          "amount": 234
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        1
+      ],
+      [
+        "deliver",
+        {
+          "day": 29,
+          "polygon": 17,
+          "specie": "Agave salmiana",
+          "amount": 524
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 33,
+    "actions": [
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 30,
+          "polygon": 1,
+          "specie": "Prosopis laevigata",
+          "amount": 226
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 30,
+          "polygon": 4,
+          "specie": "Opuntia robusta",
+          "amount": 298
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 30,
+          "polygon": 4,
+          "specie": "Opuntia robusta",
+          "amount": 165
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 30,
+          "polygon": 3,
+          "specie": "Agave salmiana",
+          "amount": 359
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 34,
+    "actions": [
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 31,
+          "polygon": 26,
+          "specie": "Agave scabra",
+          "amount": 157
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 31,
+          "polygon": 5,
+          "specie": "Agave striata",
+          "amount": 249
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 31,
+          "polygon": 23,
+          "specie": "Agave salmiana",
+          "amount": 118
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        4
+      ],
+      [
+        "deliver",
+        {
+          "day": 31,
+          "polygon": 23,
+          "specie": "Agave salmiana",
+          "amount": 95
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 31,
+          "polygon": 26,
+          "specie": "Opuntia streptacanta",
+          "amount": 242
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 31,
+          "polygon": 19,
+          "specie": "Yucca filifera",
+          "amount": 103
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 31,
+          "polygon": 3,
+          "specie": "Opuntia streptacanta",
+          "amount": 55
+        }
+      ],
+      [
+        "return"
+      ]
+    ]
+  },
+  {
+    "day": 35,
+    "actions": [
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 32,
+          "polygon": 17,
+          "specie": "Agave striata",
+          "amount": 128
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 32,
+          "polygon": 17,
+          "specie": "Agave salmiana",
+          "amount": 200
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 32,
+          "polygon": 20,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 33
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 36,
+    "actions": [
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 33,
+          "polygon": 23,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 215
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 33,
+          "polygon": 19,
+          "specie": "Opuntia streptacanta",
+          "amount": 96
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 33,
+          "polygon": 4,
+          "specie": "Agave lechuguilla",
+          "amount": 213
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        4
+      ],
+      [
+        "deliver",
+        {
+          "day": 33,
+          "polygon": 4,
+          "specie": "Agave lechuguilla",
+          "amount": 51
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 33,
+          "polygon": 4,
+          "specie": "Yucca filifera",
+          "amount": 168
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 33,
+          "polygon": 16,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 220
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 33,
+          "polygon": 17,
+          "specie": "Agave lechuguilla",
+          "amount": 85
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        2
+      ]
+    ]
+  },
+  {
+    "day": 37,
+    "actions": [
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 33,
+          "polygon": 17,
+          "specie": "Agave lechuguilla",
+          "amount": 116
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 33,
+          "polygon": 5,
+          "specie": "Agave salmiana",
+          "amount": 408
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 34,
+          "polygon": 1,
+          "specie": "Opuntia streptacanta",
+          "amount": 275
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 34,
+          "polygon": 5,
+          "specie": "Agave salmiana",
+          "amount": 249
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        1
+      ],
+      [
+        "deliver",
+        {
+          "day": 34,
+          "polygon": 5,
+          "specie": "Agave salmiana",
+          "amount": 524
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 38,
+    "actions": [
+      [
+        "load",
+        3
+      ],
+      [
+        "deliver",
+        {
+          "day": 35,
+          "polygon": 3,
+          "specie": "Agave lechuguilla",
+          "amount": 264
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 35,
+          "polygon": 18,
+          "specie": "Agave striata",
+          "amount": 234
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 35,
+          "polygon": 18,
+          "specie": "Yucca filifera",
+          "amount": 26
+        }
+      ],
+      [
+        "load",
+        6
+      ],
+      [
+        "deliver",
+        {
+          "day": 35,
+          "polygon": 18,
+          "specie": "Yucca filifera",
+          "amount": 123
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 35,
+          "polygon": 20,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 21
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 35,
+          "polygon": 1,
+          "specie": "Yucca filifera",
+          "amount": 113
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 35,
+          "polygon": 26,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 185
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 35,
+          "polygon": 20,
+          "specie": "Agave striata",
+          "amount": 45
+        }
+      ],
+      [
+        "return"
+      ]
+    ]
+  },
+  {
+    "day": 39,
+    "actions": [
+      [
+        "load",
+        4
+      ],
+      [
+        "deliver",
+        {
+          "day": 35,
+          "polygon": 3,
+          "specie": "Agave salmiana",
+          "amount": 8
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 36,
+          "polygon": 25,
+          "specie": "Agave scabra",
+          "amount": 166
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 36,
+          "polygon": 3,
+          "specie": "Agave salmiana",
+          "amount": 46
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 36,
+          "polygon": 3,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 149
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 40,
+    "actions": [
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 37,
+          "polygon": 18,
+          "specie": "Opuntia streptacanta",
+          "amount": 362
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 37,
+          "polygon": 3,
+          "specie": "Opuntia streptacanta",
+          "amount": 162
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        4
+      ],
+      [
+        "deliver",
+        {
+          "day": 37,
+          "polygon": 3,
+          "specie": "Opuntia streptacanta",
+          "amount": 191
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 37,
+          "polygon": 3,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 163
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 37,
+          "polygon": 4,
+          "specie": "Agave salmiana",
+          "amount": 42
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 37,
+          "polygon": 24,
+          "specie": "Opuntia engelmani",
+          "amount": 128
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  },
+  {
+    "day": 41,
+    "actions": [
+      [
+        "load",
+        4
+      ],
+      [
+        "deliver",
+        {
+          "day": 38,
+          "polygon": 5,
+          "specie": "Agave salmiana",
+          "amount": 4
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 38,
+          "polygon": 18,
+          "specie": "Opuntia cantabrigiensis",
+          "amount": 277
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 38,
+          "polygon": 3,
+          "specie": "Opuntia engelmani",
+          "amount": 240
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 38,
+          "polygon": 24,
+          "specie": "Opuntia engelmani",
+          "amount": 3
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        4
+      ],
+      [
+        "deliver",
+        {
+          "day": 38,
+          "polygon": 24,
+          "specie": "Opuntia engelmani",
+          "amount": 28
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 38,
+          "polygon": 20,
+          "specie": "Agave salmiana",
+          "amount": 216
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 38,
+          "polygon": 18,
+          "specie": "Opuntia robusta",
+          "amount": 261
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 38,
+          "polygon": 17,
+          "specie": "Opuntia streptacanta",
+          "amount": 19
+        }
+      ],
+      [
+        "return"
+      ]
+    ]
+  },
+  {
+    "day": 42,
+    "actions": [
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 38,
+          "polygon": 17,
+          "specie": "Opuntia streptacanta",
+          "amount": 292
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 38,
+          "polygon": 26,
+          "specie": "Agave salmiana",
+          "amount": 232
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        2
+      ],
+      [
+        "deliver",
+        {
+          "day": 39,
+          "polygon": 19,
+          "specie": "Agave lechuguilla",
+          "amount": 162
+        }
+      ],
+      [
+        "deliver",
+        {
+          "day": 39,
+          "polygon": 26,
+          "specie": "Agave salmiana",
+          "amount": 362
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        1
+      ],
+      [
+        "deliver",
+        {
+          "day": 39,
+          "polygon": 26,
+          "specie": "Agave salmiana",
+          "amount": 151
+        }
+      ],
+      [
+        "return"
+      ],
+      [
+        "load",
+        0
+      ],
+      [
+        "load",
+        0
+      ]
+    ]
+  }
+]

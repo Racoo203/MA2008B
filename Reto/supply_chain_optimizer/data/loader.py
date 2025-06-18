@@ -64,8 +64,8 @@ SPACE_DATA = {
     31: (-417, -269, 7.34)
 }
 
-# SELECTED_POLYGONS = [1, 3, 4, 5, 20, 23, 24, 18, 17, 16, 19, 25, 26]
-SELECTED_POLYGONS = [2,3,4,18]
+SELECTED_POLYGONS = [1, 3, 4, 5, 20, 23, 24, 18, 17, 16, 19, 25, 26]
+# SELECTED_POLYGONS = [2,3,4,18]
 
 # --- DataFrame Creation Functions ---
 

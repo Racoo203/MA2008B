@@ -117,28 +117,26 @@ class VRP:
     def _load_truck(self):
         capacity = self.truck_capacity
         new_inventory = []
-        updated_remaining = []
 
-        for _, row in self.remaining.iterrows():
+        for i, row in self.remaining.iterrows():
+            if capacity <= 0:
+                break
+
+            day = row['day']
             polygon = row['polygon']
+            specie = row['specie']
             demand = row['amount']
 
             if demand <= capacity:
                 # Full load possible
-                new_inventory.append({'polygon': polygon, 'amount': demand})
+                new_inventory.append({'day': day, 'polygon': polygon, 'specie': specie, 'amount': demand})
                 capacity -= demand
-            elif capacity > 0:
-                # Partial load
-                new_inventory.append({'polygon': polygon, 'amount': capacity})
-                updated_remaining.append({'polygon': polygon, 'amount': demand - capacity})
-                capacity = 0
-                break  # Truck is full after this partial load
             else:
-                # No room at all
-                updated_remaining.append({'polygon': polygon, 'amount': demand})
+                # Partial load (but keep full demand in remaining)
+                new_inventory.append({'day': day, 'polygon': polygon, 'specie': specie, 'amount': capacity})
+                capacity = 0
 
         self.current_state['inventory'] = new_inventory
-        self.remaining = pd.DataFrame(updated_remaining)
         self.current_state['load'] = self.truck_capacity - capacity
         self.current_state['time'] += self.loading_time
         self.action_history.append(('load', len(new_inventory)))
@@ -153,6 +151,18 @@ class VRP:
         state['load'] -= order['amount']
         state['delivered'].append(order)
         self.action_history.append(('deliver', order))
+        # Update self.remaining: remove delivered order from remaining
+        if self.remaining is not None:
+            mask = (
+            (self.remaining['day'] == order['day']) &
+            (self.remaining['polygon'] == order['polygon']) &
+            (self.remaining['specie'] == order['specie'])
+            )
+            
+            # Subtract the delivered amount from the 'amount' column
+            self.remaining.loc[mask, 'amount'] -= order['amount']
+            # Remove any rows where the amount is now zero or less
+            self.remaining = self.remaining[self.remaining['amount'] > 0].reset_index(drop=True)
 
     def _return_to_hq(self):
         state = self.current_state
